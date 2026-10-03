@@ -1,24 +1,25 @@
-name: Story yayını
+name: Instagram yayını
 on:
   schedule:
-    - cron: '30 6 * * *'   # 09:30 TR → slot 0
-    - cron: '30 12 * * *'  # 15:30 TR → slot 1
-    - cron: '0 18 * * *'   # 21:00 TR → slot 2
+    - cron: '30 6 * * *'   # 09:30 TR → story slot 0
+    - cron: '0 10 * * *'   # 13:00 TR → karusel
+    - cron: '30 13 * * *'  # 16:30 TR → story slot 1
+    - cron: '0 17 * * *'   # 20:00 TR → reel
+    - cron: '30 18 * * *'  # 21:30 TR → story slot 2
   workflow_dispatch:
     inputs:
+      tur: { description: 'story / reel / karusel', required: true, default: 'story' }
       slot: { description: 'slot (0/1/2)', required: true, default: '1' }
       kuru: { description: 'sadece göster, paylaşma', type: boolean, default: true }
-concurrency: { group: story, cancel-in-progress: false }
+concurrency: { group: instagram, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
   yayinla:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       IG_USER_ID: '17841432363585455'
       MEDYA_URL: https://onlinekocun-medya.vercel.app
-      BASLANGIC: '2026-10-03'
-      KAYMA: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -27,17 +28,19 @@ jobs:
         env: { TOKEN_KEY: '${{ secrets.TOKEN_KEY }}' }
         run: |
           case "${{ github.event.schedule }}" in
-            '30 6 * * *') S=0;; '30 12 * * *') S=1;; '0 18 * * *') S=2;; *) S='${{ inputs.slot }}';;
+            '30 6 * * *') U=story; S=0;; '30 13 * * *') U=story; S=1;; '30 18 * * *') U=story; S=2;;
+            '0 10 * * *') U=karusel; S=0;; '0 17 * * *') U=reel; S=0;;
+            *) U='${{ inputs.tur }}'; S='${{ inputs.slot }}';;
           esac
-          echo "SLOT=$S" >> $GITHUB_ENV
+          echo "TUR=$U" >> $GITHUB_ENV; echo "SLOT=$S" >> $GITHUB_ENV
           T=$(openssl enc -d -aes-256-cbc -pbkdf2 -a -A -in token.enc -pass env:TOKEN_KEY)
           echo "::add-mask::$T"; echo "IG_TOKEN=$T" >> $GITHUB_ENV
           # Pazartesi sabah token yenilenir (60 günlük ömür sürekli tazelenir)
-          if [ "$(TZ=Europe/Istanbul date +%u)" = 1 ] && [ "$S" = 0 ]; then echo "TOKEN_YENILE=1" >> $GITHUB_ENV; fi
+          if [ "$(TZ=Europe/Istanbul date +%u)" = 1 ] && [ "$U" = story ] && [ "$S" = 0 ]; then echo "TOKEN_YENILE=1" >> $GITHUB_ENV; fi
       - name: Paylaş
         env: { YENI_TOKEN_DOSYA: '${{ runner.temp }}/yeni' }
         run: |
-          if [ "${{ inputs.kuru }}" = "true" ]; then node yayinla.mjs --slot=$SLOT --kuru; else node yayinla.mjs --slot=$SLOT; fi
+          if [ "${{ inputs.kuru }}" = "true" ]; then node yayinla.mjs --tur=$TUR --slot=$SLOT --kuru; else node yayinla.mjs --tur=$TUR --slot=$SLOT; fi
       - name: Yenilenen token'ı kaydet
         env: { TOKEN_KEY: '${{ secrets.TOKEN_KEY }}' }
         run: |
