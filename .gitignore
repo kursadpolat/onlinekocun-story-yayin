@@ -1,0 +1,8 @@
+public/
+calistir.sh
+*.plist
+*.log
+token-kaydet.sh
+.vercel/
+.vercelignore
+vercel.json

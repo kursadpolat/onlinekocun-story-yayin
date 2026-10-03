@@ -1,0 +1,48 @@
+name: Story yayını
+on:
+  schedule:
+    - cron: '30 6 * * *'   # 09:30 TR → slot 0
+    - cron: '30 12 * * *'  # 15:30 TR → slot 1
+    - cron: '0 18 * * *'   # 21:00 TR → slot 2
+  workflow_dispatch:
+    inputs:
+      slot: { description: 'slot (0/1/2)', required: true, default: '1' }
+      kuru: { description: 'sadece göster, paylaşma', type: boolean, default: true }
+concurrency: { group: story, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      IG_USER_ID: '17841432363585455'
+      MEDYA_URL: https://onlinekocun-medya.vercel.app
+      BASLANGIC: '2026-10-03'
+      KAYMA: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Slot ve token
+        env: { TOKEN_KEY: '${{ secrets.TOKEN_KEY }}' }
+        run: |
+          case "${{ github.event.schedule }}" in
+            '30 6 * * *') S=0;; '30 12 * * *') S=1;; '0 18 * * *') S=2;; *) S='${{ inputs.slot }}';;
+          esac
+          echo "SLOT=$S" >> $GITHUB_ENV
+          T=$(openssl enc -d -aes-256-cbc -pbkdf2 -a -A -in token.enc -pass env:TOKEN_KEY)
+          echo "::add-mask::$T"; echo "IG_TOKEN=$T" >> $GITHUB_ENV
+          # Pazartesi sabah token yenilenir (60 günlük ömür sürekli tazelenir)
+          if [ "$(TZ=Europe/Istanbul date +%u)" = 1 ] && [ "$S" = 0 ]; then echo "TOKEN_YENILE=1" >> $GITHUB_ENV; fi
+      - name: Paylaş
+        env: { YENI_TOKEN_DOSYA: '${{ runner.temp }}/yeni' }
+        run: |
+          if [ "${{ inputs.kuru }}" = "true" ]; then node yayinla.mjs --slot=$SLOT --kuru; else node yayinla.mjs --slot=$SLOT; fi
+      - name: Yenilenen token'ı kaydet
+        env: { TOKEN_KEY: '${{ secrets.TOKEN_KEY }}' }
+        run: |
+          F='${{ runner.temp }}/yeni'
+          [ -s "$F" ] || exit 0
+          openssl enc -aes-256-cbc -pbkdf2 -a -A -salt -in "$F" -out token.enc -pass env:TOKEN_KEY
+          git config user.name "story-bot"; git config user.email "story-bot@users.noreply.github.com"
+          git add token.enc && git commit -m "token yenilendi $(date +%F)" && git push
