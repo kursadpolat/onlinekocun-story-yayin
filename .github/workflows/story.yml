@@ -1,11 +1,12 @@
 name: Instagram yayını
 on:
-  schedule:
-    - cron: '30 6 * * *'   # 09:30 TR → story slot 0
-    - cron: '0 10 * * *'   # 13:00 TR → karusel
-    - cron: '30 13 * * *'  # 16:30 TR → story slot 1
-    - cron: '0 17 * * *'   # 20:00 TR → reel
-    - cron: '30 18 * * *'  # 21:30 TR → story slot 2
+  # Tetikleyici Cloudflare Worker (ig-tetikleyici): GitHub cron'u 2026-10-04'te hiç çalışmadı.
+  # Durumsuz betik olduğu için GitHub cron'u geri AÇMA, ikisi birlikte çift paylaşım yapar. Eski saatler:
+  #   - cron: '30 6 * * *'   # 09:30 TR → story slot 0
+  #   - cron: '0 10 * * *'   # 13:00 TR → karusel
+  #   - cron: '30 13 * * *'  # 16:30 TR → story slot 1
+  #   - cron: '0 17 * * *'   # 20:00 TR → reel
+  #   - cron: '30 18 * * *'  # 21:30 TR → story slot 2
   workflow_dispatch:
     inputs:
       tur: { description: 'story / reel / karusel', required: true, default: 'story' }
