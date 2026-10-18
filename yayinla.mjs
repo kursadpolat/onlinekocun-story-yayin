@@ -18,7 +18,7 @@ const TUR = arg.tur || 'story';
 const AYAR = {
   story:   { dosya: 'kuyruk.json',         gunluk: 3, baslangic: '2026-10-03', kayma: 1 },
   reel:    { dosya: 'kuyruk-reel.json',    gunluk: 1, baslangic: '2026-10-03', kayma: 0 },
-  karusel: { dosya: 'kuyruk-karusel.json', gunluk: 1, baslangic: '2026-10-04', kayma: 0 },
+  karusel: { dosya: 'kuyruk-karusel.json', gunluk: 1, baslangic: '2026-10-19', kayma: 0 },
 }[TUR];
 if (!AYAR) { console.error('bilinmeyen tür: ' + TUR); process.exit(1); }
 const kuyruk = JSON.parse(fs.readFileSync(new URL('./' + AYAR.dosya, import.meta.url), 'utf8'));
@@ -27,11 +27,8 @@ const GRAPH = 'https://graph.instagram.com/v23.0';
 
 function bugunTR() { return new Date(Date.now() + 3 * 3600e3).toISOString().slice(0, 10); }
 function icerikSec() {
-  // 2026-10-14 (büyüme denetimi): karusel en az erişen format (ort. 73 erişim), haftada 3 güne indirildi.
-  // Atlanan günlerin içeriği sırayla atlanır; Pzt/Çar/Cum dışında paylaşım yok.
-  if (TUR === 'karusel' && !arg.id && ![1, 3, 5].includes(new Date((arg.tarih || bugunTR()) + 'T12:00:00Z').getUTCDay())) {
-    console.log('Karusel bugün paylaşılmıyor (yalnız Pzt/Çar/Cum).'); process.exit(0);
-  }
+  // 2026-10-18: karusel her gün, sırayla, atlamasız. Paylaşılanlar kuyruk-karusel-paylasilan.json'a taşındı;
+  // kuyruk-karusel.json yalnız paylaşılmamışları içerir ve 2026-10-19'da baştan başlar.
   if (arg.id) return kuyruk.find(s => s.id === arg.id) || (() => { throw new Error('içerik yok: ' + arg.id); })();
   const gun = Math.round((Date.parse(arg.tarih || bugunTR()) - Date.parse(AYAR.baslangic)) / 864e5);
   const i = gun * AYAR.gunluk + Number(arg.slot || 0) - AYAR.kayma;
