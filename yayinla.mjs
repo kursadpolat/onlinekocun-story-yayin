@@ -5,7 +5,11 @@
 //   node yayinla.mjs --tur=reel --kuru           → paylaşmadan ne gideceğini yazar
 //   node yayinla.mjs --tur=karusel --id=k01      → belirli bir içeriği paylaşır (elle)
 //   --tarih=YYYY-MM-DD ile başka bir günü hesaplatabilirsin (test için)
-// Ortam: IG_USER_ID, IG_TOKEN, MEDYA_URL. Durumsuz: içerik = (gün farkı × günlük adet + slot − kayma).
+// Ortam: IG_USER_ID, IG_TOKEN, MEDYA_URL.
+// DURUMLU (2026-10-18): paylaşılanlar paylasilan.json'da id bazlı tutulur (workflow paylaşım sonrası commit+push eder).
+// Sıradaki içerik = kuyrukta paylaşılmamış ilk öğe. Hata olursa öğe yanmaz, sonraki slotta yeniden denenir.
+// Aynı (tarih, tür, slot) için zaten kayıt varsa çift paylaşım yapılmaz. Kuyruğa araya içerik eklemek serbest (id bazlı).
+//   --deneme → API çağırmadan sırayı ilerletir (STATE_DOSYA ile geçici kopyada simülasyon için)
 import fs from 'node:fs';
 
 // Mac'te elle çalıştırırken gizli ayarlar ~/.config/onlinekocun-ig/env dosyasından okunur
@@ -21,20 +25,25 @@ const AYAR = {
   karusel: { dosya: 'kuyruk-karusel.json', gunluk: 1, baslangic: '2026-10-19', kayma: 0 },
 }[TUR];
 if (!AYAR) { console.error('bilinmeyen tür: ' + TUR); process.exit(1); }
+const STATE = process.env.STATE_DOSYA || new URL('./paylasilan.json', import.meta.url).pathname;
+const durum = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) : {};
+durum[TUR] ||= []; durum.kismi ||= {};
+const kaydet = () => fs.writeFileSync(STATE, JSON.stringify(durum, null, 1) + '\n');
 const kuyruk = JSON.parse(fs.readFileSync(new URL('./' + AYAR.dosya, import.meta.url), 'utf8'));
 const { IG_USER_ID, IG_TOKEN, MEDYA_URL } = process.env;
 const GRAPH = 'https://graph.instagram.com/v23.0';
 
 function bugunTR() { return new Date(Date.now() + 3 * 3600e3).toISOString().slice(0, 10); }
 function icerikSec() {
-  // 2026-10-18: karusel her gün, sırayla, atlamasız. Paylaşılanlar kuyruk-karusel-paylasilan.json'a taşındı;
-  // kuyruk-karusel.json yalnız paylaşılmamışları içerir ve 2026-10-19'da baştan başlar.
   if (arg.id) return kuyruk.find(s => s.id === arg.id) || (() => { throw new Error('içerik yok: ' + arg.id); })();
-  const gun = Math.round((Date.parse(arg.tarih || bugunTR()) - Date.parse(AYAR.baslangic)) / 864e5);
-  const i = gun * AYAR.gunluk + Number(arg.slot || 0) - AYAR.kayma;
-  if (gun < 0 || i < 0) return null;
-  if (i >= kuyruk.length) { console.log('Kuyruk bitti, paylaşılacak içerik kalmadı.'); process.exit(0); }
-  return kuyruk[i];
+  const tarih = arg.tarih || bugunTR(), slot = Number(arg.slot || 0);
+  if (Date.parse(tarih) < Date.parse(AYAR.baslangic)) return null;
+  const onceki = durum[TUR].find(k => k.tarih === tarih && k.slot === slot);
+  if (onceki) { console.log(`${tarih} ${TUR} slot ${slot} zaten paylaşıldı (${onceki.id}), çıkılıyor.`); process.exit(0); }
+  const bitti = new Set(durum[TUR].map(k => k.id));
+  const sira = kuyruk.find(s => !bitti.has(s.id));
+  if (!sira) { console.log('Kuyruk bitti, paylaşılacak içerik kalmadı.'); process.exit(0); }
+  return sira;
 }
 
 async function api(yol, params, method = 'POST') {
@@ -62,10 +71,13 @@ async function yayinla(id) { return (await api(`${IG_USER_ID}/media_publish`, { 
 
 const PAYLAS = {
   async story(x) {
+    const yapilan = durum.kismi[x.id] ||= [];
     for (const k of x.kare) {
+      if (yapilan.includes(k)) continue; // önceki yarım denemede paylaşılmış kare
       const { id } = await api(`${IG_USER_ID}/media`, { image_url: url(k), media_type: 'STORIES' });
       await hazirBekle(id, 20);
       console.log(`  ✓ ${k} → ${await yayinla(id)}`);
+      yapilan.push(k); kaydet();
       await bekle(4000); // kareler sırayla görünsün
     }
   },
@@ -108,4 +120,7 @@ if (process.env.TOKEN_YENILE === '1' || yas > 7) {
     }
   } catch (e) { console.log('  token yenilenemedi: ' + e.message); }
 }
-await PAYLAS[TUR](x);
+if (arg.deneme) console.log('  (deneme: API çağrılmadı)'); else await PAYLAS[TUR](x);
+durum[TUR].push({ id: x.id, tarih: arg.tarih || bugunTR(), slot: Number(arg.slot || 0) });
+delete durum.kismi[x.id];
+kaydet();

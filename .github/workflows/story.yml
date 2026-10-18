@@ -42,6 +42,13 @@ jobs:
         env: { YENI_TOKEN_DOSYA: '${{ runner.temp }}/yeni' }
         run: |
           if [ "${{ inputs.kuru }}" = "true" ]; then node yayinla.mjs --tur=$TUR --slot=$SLOT --kuru; else node yayinla.mjs --tur=$TUR --slot=$SLOT; fi
+      - name: Paylaşım kaydını repoya yaz
+        if: always()
+        run: |
+          git diff --quiet paylasilan.json && exit 0
+          git config user.name "story-bot"; git config user.email "story-bot@users.noreply.github.com"
+          git add paylasilan.json && git commit -m "paylaşım kaydı $TUR slot $SLOT $(date +%F)"
+          for n in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 3; done; exit 1
       - name: Yenilenen token'ı kaydet
         env: { TOKEN_KEY: '${{ secrets.TOKEN_KEY }}' }
         run: |
@@ -49,4 +56,4 @@ jobs:
           [ -s "$F" ] || exit 0
           openssl enc -aes-256-cbc -pbkdf2 -a -A -salt -in "$F" -out token.enc -pass env:TOKEN_KEY
           git config user.name "story-bot"; git config user.email "story-bot@users.noreply.github.com"
-          git add token.enc && git commit -m "token yenilendi $(date +%F)" && git push
+          git add token.enc && git commit -m "token yenilendi $(date +%F)" && git pull --rebase -q && git push
