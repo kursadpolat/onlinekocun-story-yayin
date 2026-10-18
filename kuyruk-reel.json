@@ -7,32 +7,11 @@
   "kapak": "r/et07/k.jpg"
  },
  {
-  "id": "et13",
-  "baslik": "Telefon masada kaç dakika dayanır",
-  "video": "r/et13/v.mp4",
-  "altyazi": "Bir rakam soruyorum, hemen cevap vermek zorunda değilsin. Kendine karşı dürüst ol.\n\nKaydet, karnesiyle karşılaştır.\n\n#onlinekocun #lgs #cevap #yorum #ogrencitavsiyesi",
-  "kapak": "r/et13/k.jpg"
- },
- {
-  "id": "os09",
-  "baslik": "Hata defterin var mı?",
-  "video": "r/os09/v.mp4",
-  "altyazi": "Bir defter ya da tek bir sayfa yeter. Yanlışlarını aynı yere yazmayan öğrenci aynı hatayı farklı kâğıtlarda yapar. Seninkinde kaç hata var?\n\n7 gün ücretsiz: bağlantı profilin üstünde.\n\n#onlinekocun #lgs #ogrenciyesor #yorum #ogrencitavsiyesi",
-  "kapak": "r/os09/k.jpg"
- },
- {
   "id": "os10",
   "baslik": "Yarım bıraktığın bir ders var mı?",
   "video": "r/os10/v.mp4",
   "altyazi": "Herkesin var. Fark, farkında olup olmamakta. Yarım kalan konu, tamamlanmayan konu gibi görünür ama sınavda tamamlanmamış birikim olarak karşına çıkar.\n\nStory’ine atarsan ne der, merak ettim.\n\n#onlinekocun #lgs #ogrenciyesor #yorum #ogrencitavsiyesi",
   "kapak": "r/os10/k.jpg"
- },
- {
-  "id": "os11",
-  "baslik": "Sınav saatinde mi uyuyorsun?",
-  "video": "r/os11/v.mp4",
-  "altyazi": "Sınav sabah 10'da başlıyorsa, gece 03'te uyuyan bir kafa saat 10'da açık değildir. Uyku saatini sınav saatine göre kurmak, çalışma saatinden daha etkili.\n\nBu soruyu anlıyorsan yaz, anlamıyorsan da yaz.\n\n#onlinekocun #lgs #ogrenciyesor #yorum #ogrencitavsiyesi",
-  "kapak": "r/os11/k.jpg"
  },
  {
   "id": "vs09",
@@ -105,11 +84,60 @@
   "kapak": "r/vk19/k.jpg"
  },
  {
+  "id": "et13",
+  "baslik": "Telefon masada kaç dakika dayanır",
+  "video": "r/et13/v.mp4",
+  "altyazi": "Bir rakam soruyorum, hemen cevap vermek zorunda değilsin. Kendine karşı dürüst ol.\n\nKaydet, karnesiyle karşılaştır.\n\n#onlinekocun #lgs #cevap #yorum #ogrencitavsiyesi",
+  "kapak": "r/et13/k.jpg"
+ },
+ {
+  "id": "rk16",
+  "baslik": "Ev videosu 2009",
+  "video": "r/rk16/v.mp4",
+  "altyazi": "2009'da takılınca bir hafta beklerdin. Şimdi soruyu sorup iki dakikada adım adım öğreniyorsun.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #dershane #veli",
+  "kapak": "r/rk16/k.jpg"
+ },
+ {
+  "id": "os09",
+  "baslik": "Hata defterin var mı?",
+  "video": "r/os09/v.mp4",
+  "altyazi": "Bir defter ya da tek bir sayfa yeter. Yanlışlarını aynı yere yazmayan öğrenci aynı hatayı farklı kâğıtlarda yapar. Seninkinde kaç hata var?\n\n7 gün ücretsiz: bağlantı profilin üstünde.\n\n#onlinekocun #lgs #ogrenciyesor #yorum #ogrencitavsiyesi",
+  "kapak": "r/os09/k.jpg"
+ },
+ {
+  "id": "rk17",
+  "baslik": "Son dakika",
+  "video": "r/rk17/v.mp4",
+  "altyazi": "Son dakika: Gece 23.00'te takıldı, iki dakikada çözdü. Fotoğrafını çek, adım adım anlatım, benzer soruyla pekiştir.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #soruçözümü",
+  "kapak": "r/rk17/k.jpg"
+ },
+ {
+  "id": "os11",
+  "baslik": "Sınav saatinde mi uyuyorsun?",
+  "video": "r/os11/v.mp4",
+  "altyazi": "Sınav sabah 10'da başlıyorsa, gece 03'te uyuyan bir kafa saat 10'da açık değildir. Uyku saatini sınav saatine göre kurmak, çalışma saatinden daha etkili.\n\nBu soruyu anlıyorsan yaz, anlamıyorsan da yaz.\n\n#onlinekocun #lgs #ogrenciyesor #yorum #ogrencitavsiyesi",
+  "kapak": "r/os11/k.jpg"
+ },
+ {
+  "id": "rk19",
+  "baslik": "Rpg gorev",
+  "video": "r/rk19/v.mp4",
+  "altyazi": "Görev: LGS. Rakip: üslü ifadeler ejderhası. Yardım büyüsü OnlineKoçun ile seviye atlamaya hazır mısın?\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun #üslüifadeler",
+  "kapak": "r/rk19/k.jpg"
+ },
+ {
   "id": "vr11",
   "baslik": "Hangi ders güçlendirilmeli",
   "video": "r/vr11/v.mp4",
   "altyazi": "Veli, sıfırdan başlayan dersi seçip oraya tüm yükü bindirir. Oysa sınavda en çok kaybedilen yer, birkaç ayda kapatılabilecek yerdir.\n\nBakmak isteyenler için bağlantı bio’da.\n\nÇocuğunuzun çalışmasını, denemelerini ve eksik konularını günlük takip etmek isterseniz DM'e DEMO yazın, örnek veli raporunu gönderelim.\n\n#onlinekocun #lgs2027 #lgshazirlik #velirehberi #ogrencikocu",
   "kapak": "r/vr11/k.jpg"
+ },
+ {
+  "id": "rk20",
+  "baslik": "Defter karalama",
+  "video": "r/rk20/v.mp4",
+  "altyazi": "Kâğıttaki plan seni takip etmiyor. OnlineKoçun programını kaçırdığında yarına taşır, koçun haftanı görür.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #çalışmaprogramı #onlinekoçun",
+  "kapak": "r/rk20/k.jpg"
  },
  {
   "id": "vr12",
@@ -119,11 +147,25 @@
   "kapak": "r/vr12/k.jpg"
  },
  {
+  "id": "rk22",
+  "baslik": "Ekim ozetin",
+  "video": "r/rk22/v.mp4",
+  "altyazi": "Ekim özetin hazır: kaç soru çözdün, en çok nerede takıldın, hangi konuyu yendin. Hepsi tek ekranda.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #deneme",
+  "kapak": "r/rk22/k.jpg"
+ },
+ {
   "id": "kt14",
   "baslik": "Geç kalan öğrenci ne yapsın?",
   "video": "r/kt14/v.mp4",
   "altyazi": "Geç kalan öğrenci genelde konuyu değil, programı bırakmıştır.\n\nKonular sırayla geldiği için program esner. Bu yüzden programı değil, bugünkü tek konuyu planla.\n\nHaklı mısın?\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/kt14/k.jpg"
+ },
+ {
+  "id": "rk24",
+  "baslik": "Saat 2247 trakya",
+  "video": "r/rk24/v.mp4",
+  "altyazi": "Saat 22.47, Trakya'nın dört bir yanında öğrenciler aynı soruda takılıyor. Takıldığın yer neresi olursa olsun.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #tekirdağ #onlinekoçun #çorlu",
+  "kapak": "r/rk24/k.jpg"
  },
  {
   "id": "kt15",
@@ -133,11 +175,25 @@
   "kapak": "r/kt15/k.jpg"
  },
  {
+  "id": "rk25",
+  "baslik": "Haftanin fisi",
+  "video": "r/rk25/v.mp4",
+  "altyazi": "Haftanın fişi: çözülen soru, adım adım anlatım, kendi çözdüğü benzer soru, zayıf konu. Veli için tek bakışta.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#veli #lgs #onlinekoçun #velirapor",
+  "kapak": "r/rk25/k.jpg"
+ },
+ {
   "id": "kt16",
   "baslik": "Sınavda üç turlu sıralama",
   "video": "r/kt16/v.mp4",
   "altyazi": "Sıralama bir tercih değil, taktik. Tek turda sıkışan öğrenci kalan soruların hepsini kaybeder.\n\nBir soruda dört dakika geçtiyse o soru senin saatini değil, sınav saatini çalışıyor.\n\nDoğru cevap sence kaç? Yoruma bir.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/kt16/k.jpg"
+ },
+ {
+  "id": "rk26",
+  "baslik": "Baba ogul 916",
+  "video": "r/rk26/v.mp4",
+  "altyazi": "Saat on bir. Oğlum yine aynı soruya takıldı. Yardım edemiyordum; şimdi fotoğrafını çekiyor, adım adım öğreniyor.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#veli #lgs #onlinekoçun #babaoğul",
+  "kapak": "r/rk26/k.jpg"
  },
  {
   "id": "kt17",
@@ -147,11 +203,25 @@
   "kapak": "r/kt17/k.jpg"
  },
  {
+  "id": "rk27",
+  "baslik": "Ders calistin mi 916",
+  "video": "r/rk27/v.mp4",
+  "altyazi": "\"Ders çalıştın mı?\" sorusuna gerek kalmadı. Kaç saat çalıştı, kaç soru çözdü, hangi konuda zorlandı: veli raporunda.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#veli #lgs #onlinekoçun #velirapor",
+  "kapak": "r/rk27/k.jpg"
+ },
+ {
   "id": "kt18",
   "baslik": "Tekrar üç günde biter",
   "video": "r/kt18/v.mp4",
   "altyazi": "Aynı gün iki kez okumak tekrar sayılmaz. Ölçüt 'anladım' hissi değil, yanlış sayısıdır.\n\nÖğrendiğin gün, üç gün sonra, yedi gün sonra. Üçünü de takvime yaz.\n\nDenemek isteyenler için bağlantı bio’da.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/kt18/k.jpg"
+ },
+ {
+  "id": "rk29",
+  "baslik": "Koc paneli 916",
+  "video": "r/rk29/v.mp4",
+  "altyazi": "Öğrenci takibini hâlâ Excel'de mi yapıyorsunuz? Koç paneli: kim düştü, kime bugün ulaşmalısınız, veliye rapor otomatik.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#eğitimkoçu #koçluk #onlinekoçun #yks",
+  "kapak": "r/rk29/k.jpg"
  },
  {
   "id": "kt19",
@@ -161,11 +231,25 @@
   "kapak": "r/kt19/k.jpg"
  },
  {
+  "id": "rk30",
+  "baslik": "Bu kep 916",
+  "video": "r/rk30/v.mp4",
+  "altyazi": "Bu kep bir gecede takılmadı. Arkasında yüzlerce gece, binlerce soru var. Küçük adımlarla.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#yks #lgs #mezuniyet #onlinekoçun",
+  "kapak": "r/rk30/k.jpg"
+ },
+ {
   "id": "vr13",
   "baslik": "Deneme sonrası ilk 30 dakika",
   "video": "r/vr13/v.mp4",
   "altyazi": "Deneme bittiği an evin çalışması başlar. Bu yarım saat, bir sonraki haftayı belirliyor.\n\nBunu kaydet, sınavdan bir gün önce aç.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/vr13/k.jpg"
+ },
+ {
+  "id": "rk31",
+  "baslik": "Kendi hizinda 916",
+  "video": "r/rk31/v.mp4",
+  "altyazi": "Arkadaşın anlattı, yine anlamadın. Videolu anlatımda hız sende: geri sar, yavaşlat, kendi hızında öğren.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun #videoluanlatım",
+  "kapak": "r/rk31/k.jpg"
  },
  {
   "id": "kt20",
@@ -175,11 +259,25 @@
   "kapak": "r/kt20/k.jpg"
  },
  {
+  "id": "rk32",
+  "baslik": "Arama cubugu 916",
+  "video": "r/rk32/v.mp4",
+  "altyazi": "Gece on bir, arama çubuğunda yüzlerce video. Senin sorun yok. Fotoğrafını at, adım adım çözüm gelsin.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #soruçözümü",
+  "kapak": "r/rk32/k.jpg"
+ },
+ {
   "id": "vr14",
   "baslik": "Sınav günü sabah rutini",
   "video": "r/vr14/v.mp4",
   "altyazi": "Sınav gününü kim planlarsa sınav gününü o yönetir. Sabah rutini geçen hafta yazılır, sınav günü sadece uygulanır.\n\nAldığın karşılık ne oldu?\n\nNe yaptın?\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/vr14/k.jpg"
+ },
+ {
+  "id": "rk33",
+  "baslik": "Kilit ekrani 916",
+  "video": "r/rk33/v.mp4",
+  "altyazi": "Bir öğrencinin günü bildirimlerle: sabah program hazır, öğlen tekrar listesi, akşam koçundan not.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #çalışmaprogramı",
+  "kapak": "r/rk33/k.jpg"
  },
  {
   "id": "kt13",
@@ -189,11 +287,25 @@
   "kapak": "r/kt13/k.jpg"
  },
  {
+  "id": "rk35",
+  "baslik": "Kalkis panosu 916",
+  "video": "r/rk35/v.mp4",
+  "altyazi": "Matematik uçuşunuz rötarlı, üslü ifadelerde türbülans bekleniyor. Kaptanınız OnlineKoçun, rotayı adım adım güncelliyor.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun",
+  "kapak": "r/rk35/k.jpg"
+ },
+ {
   "id": "ar01",
   "baslik": "Motivasyonu beklemek",
   "video": "r/ar01/v.mp4",
   "altyazi": "Motivasyon, ders çalışmaya başladıktan sonra gelen bir şey değil. Yani onu beklemek, saatlerce masada oturup kendini tanıtmak demek. Bugün iki soruyla başla; yarın beşe çıkarmak, planın işini yapar.\n\nTakvime yazdın mı?\n\nNerede zorlandın?\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar01/k.jpg"
+ },
+ {
+  "id": "rk36",
+  "baslik": "Son soru 916",
+  "video": "r/rk36/v.mp4",
+  "altyazi": "Son soru, joker hakkın var: koçunu ara. Tabanlar aynıysa üsler çıkarılır. Doğru cevap!\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun #üslüifadeler",
+  "kapak": "r/rk36/k.jpg"
  },
  {
   "id": "ar02",
@@ -203,11 +315,25 @@
   "kapak": "r/ar02/k.jpg"
  },
  {
+  "id": "rk39",
+  "baslik": "Kapak yildizi 916",
+  "video": "r/rk39/v.mp4",
+  "altyazi": "Bu ayın kapak yıldızı İpek. Sırrı ne? Takıldığı yeri bilmek. Sıradaki kapak sen olabilirsin.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #motivasyon",
+  "kapak": "r/rk39/k.jpg"
+ },
+ {
   "id": "ar03",
   "baslik": "Soru sayısını değil, hatayı say",
   "video": "r/ar03/v.mp4",
   "altyazi": "Her gün elli soru çözüp ertesi gün sıfırdan başlıyorsan sorun miktar değil, sayım biçimi. Kaçırdığın sorunun nedenini ayrı ayrı işaretle; tekrar eden hata ancak o zaman görünür.\n\nFormülü ezberledin mi, yoksa anlıyor musun?\n\nGönder, sohbet başlasın.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar03/k.jpg"
+ },
+ {
+  "id": "rk41",
+  "baslik": "Podcast 916",
+  "video": "r/rk41/v.mp4",
+  "altyazi": "Podcast bölüm 12: Neden aynı soruda takılırız? Çünkü çoğu zaman cevabı değil, adımı kaçırırız.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #öğrenme",
+  "kapak": "r/rk41/k.jpg"
  },
  {
   "id": "ar04",
@@ -217,11 +343,25 @@
   "kapak": "r/ar04/k.jpg"
  },
  {
+  "id": "rk44",
+  "baslik": "Pano 916",
+  "video": "r/rk44/v.mp4",
+  "altyazi": "Yapılacaklar listen büyüyor mu? OnlineKoçun programı işleri günlere böler, takıldığın soru adım adım anlatımla geçer.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #çalışmaprogramı #onlinekoçun",
+  "kapak": "r/rk44/k.jpg"
+ },
+ {
   "id": "ar05",
   "baslik": "Sen çalışmıyorsun",
   "video": "r/ar05/v.mp4",
   "altyazi": "Eve gelip soran anne babaya cevap vermek, çalışmaktan daha yorucudur. Bu yüzden masaya oturmadan önce kırk dakikalık bir iş bitirmek, iki saatlik sohbetten daha çok işe yarar.\n\nHangi adımda kaybediyorsun?\n\nBunları kaçırma, takipte kal.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar05/k.jpg"
+ },
+ {
+  "id": "rk48",
+  "baslik": "Sohbet 916",
+  "video": "r/rk48/v.mp4",
+  "altyazi": "Gece 23.40, telefon titredi: \"Hâlâ uyanık mısın?\" Fotoğrafı gönderdim, adım adım çözdük, benzerini kendim çözdüm.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun #soruçözümü",
+  "kapak": "r/rk48/k.jpg"
  },
  {
   "id": "ar06",
@@ -231,11 +371,25 @@
   "kapak": "r/ar06/k.jpg"
  },
  {
+  "id": "rk50",
+  "baslik": "Ozet 916",
+  "video": "r/rk50/v.mp4",
+  "altyazi": "Yılın özeti: çözülen soru, odak süresi, en çok geliştiğin konu, en uzun serin. 2027 daha da büyük.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #yılınözeti",
+  "kapak": "r/rk50/k.jpg"
+ },
+ {
   "id": "ar07",
   "baslik": "Formülü ezberlemek işe yaramaz",
   "video": "r/ar07/v.mp4",
   "altyazi": "Fizikte formülü ezberlemek, soruyu nereden okuyacağını bilmekten daha az işe yarar. Önce soru ne istiyor onu bul, sonra o cevabı verecek yazılı yüzüne bak.\n\nBu konuyu gerçekten anladın mı?\n\nSana göre kaç?\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar07/k.jpg"
+ },
+ {
+  "id": "rk51",
+  "baslik": "Veli rapor 916",
+  "video": "r/rk51/v.mp4",
+  "altyazi": "Akşam sekiz, toplantıdan yeni çıktım. Telefona haftalık veli raporu düştü: on bir saat çalışmış, zorlandığı konu belli.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#veli #lgs #onlinekoçun #velirapor",
+  "kapak": "r/rk51/k.jpg"
  },
  {
   "id": "ar08",
@@ -245,11 +399,25 @@
   "kapak": "r/ar08/k.jpg"
  },
  {
+  "id": "rk52",
+  "baslik": "Fotograf 916",
+  "video": "r/rk52/v.mp4",
+  "altyazi": "Soru 14'te yine takıldın mı? Telefonu aç, soruyu kadraja al, birkaç saniyede adım adım çözüm, sonra benzerini çöz.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #matematik #onlinekoçun #soruçözümü",
+  "kapak": "r/rk52/k.jpg"
+ },
+ {
   "id": "ar09",
   "baslik": "Bir günün nasıl bölünür",
   "video": "r/ar09/v.mp4",
   "altyazi": "Günün tamamını yeni konuya ayırmak en sık yapılan hatadır. Tekrar ve deneme zamanı plana yazılmazsa hiç yapılmaz; dağılımı gözle gör, sonra karar ver.\n\nBunu yaptın mı?\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar09/k.jpg"
+ },
+ {
+  "id": "rk54",
+  "baslik": "Deneme 916",
+  "video": "r/rk54/v.mp4",
+  "altyazi": "Geçen deneme dokuz net, kimseye göstermedim. Her yanlışımın hangi konudan geldiğini gördüm, adım adım çalıştım. Bugün on altı.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #deneme #onlinekoçun #netartışı",
+  "kapak": "r/rk54/k.jpg"
  },
  {
   "id": "ar10",
@@ -259,11 +427,25 @@
   "kapak": "r/ar10/k.jpg"
  },
  {
+  "id": "rk55",
+  "baslik": "Tur 916",
+  "video": "r/rk55/v.mp4",
+  "altyazi": "30 saniyelik tur: günlük plan, takıldığın soru, deneme analizi, veli raporu ve koçundan mesaj. Hepsi tek uygulamada.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #onlinekoçun #eğitimteknolojisi",
+  "kapak": "r/rk55/k.jpg"
+ },
+ {
   "id": "ar11",
   "baslik": "Geç kaldım, şimdi ne yaparım",
   "video": "r/ar11/v.mp4",
   "altyazi": "Geriye süre kaldığını düşündüğün an panik yapmak yerine geriye doğru bir plan yazmak işe yarar. Her günün bir işi olsun; kalan günler biriktikçe plan büyür.\n\nProgramında kaç saat var?\n\nKaydet, yarın ilk iş bu olsun.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/ar11/k.jpg"
+ },
+ {
+  "id": "rk56",
+  "baslik": "Plan sihirbazi 916 r3",
+  "video": "r/rk56/v.mp4",
+  "altyazi": "Okul, kurs, antrenman, uyku... Bu hesabı kafanda yapma. Akıllı Plan Sihirbazı seviyeni, temponu, ders programını ve uyku saatini alır; programın sene sonuna kadar ay ay hazır.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#lgs #yks #çalışmaprogramı #onlinekoçun #plansihirbazı",
+  "kapak": "r/rk56/k.jpg"
  },
  {
   "id": "ar12",

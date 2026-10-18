@@ -198,224 +198,252 @@ Karusel her gün 13:00 · Reel her gün 20:00 · Hikâye her gün 09:30 / 16:30 
 | 189 | 2026-12-05 | 09:30 | yb02 | Üç cümle kuralı |
 | 190 | 2026-12-05 | 16:30 | yb03 | Özet için hangi konu seçilir |
 
-## Reel (214 adet)
+## Reel (240 adet)
+
+Gün aşırı: 20.10'dan itibaren bir yeni (rk*) bir mevcut reel.
 
 | # | Tarih | Saat | Kod | Başlık |
 |---|---|---|---|---|
 | 1 | 2026-10-03 | 20:00 | et07 | Kaç saniyede buldun? |
-| 2 | 2026-10-04 | 20:00 | et13 | Telefon masada kaç dakika dayanır |
-| 3 | 2026-10-05 | 20:00 | os09 | Hata defterin var mı? |
-| 4 | 2026-10-06 | 20:00 | os10 | Yarım bıraktığın bir ders var mı? |
-| 5 | 2026-10-07 | 20:00 | os11 | Sınav saatinde mi uyuyorsun? |
-| 6 | 2026-10-08 | 20:00 | vs09 | Çocuğunuz bugün hangi konuyu çalıştı, biliyor musunuz? |
-| 7 | 2026-10-09 | 20:00 | vs10 | Sınav kaygısını siz mi artırıyorsunuz? |
-| 8 | 2026-10-10 | 20:00 | vs11 | Hangi dersi siz önceliklendiriyorsunuz? |
-| 9 | 2026-10-11 | 20:00 | vk13 | Çalışmıyor mu, başlayamıyor mu |
-| 10 | 2026-10-12 | 20:00 | vk14 | Kaç saat sorusunu bırakın |
-| 11 | 2026-10-13 | 20:00 | vk15 | Telefon yasağı neden tutmuyor |
-| 12 | 2026-10-14 | 20:00 | vk16 | Deneme sonrası ilk yarım saat |
-| 13 | 2026-10-15 | 20:00 | vk17 | Dershane mi, online mı |
-| 14 | 2026-10-16 | 20:00 | vk18 | Ağladığında ne söylemeli |
-| 15 | 2026-10-17 | 20:00 | vk19 | Kaç net hedefliyorsun |
-| 16 | 2026-10-18 | 20:00 | vr11 | Hangi ders güçlendirilmeli |
-| 17 | 2026-10-19 | 20:00 | vr12 | Motivasyon cümlesi kurma hatası |
-| 18 | 2026-10-20 | 20:00 | kt14 | Geç kalan öğrenci ne yapsın? |
-| 19 | 2026-10-21 | 20:00 | kt15 | Sınav kaygısı: dört sayı |
-| 20 | 2026-10-22 | 20:00 | kt16 | Sınavda üç turlu sıralama |
-| 21 | 2026-10-23 | 20:00 | kt17 | Doğru çözümü okumak yetmez |
-| 22 | 2026-10-24 | 20:00 | kt18 | Tekrar üç günde biter |
-| 23 | 2026-10-25 | 20:00 | kt19 | Motivasyon yoksa asgari görev |
-| 24 | 2026-10-26 | 20:00 | vr13 | Deneme sonrası ilk 30 dakika |
-| 25 | 2026-10-27 | 20:00 | kt20 | İki hata, iki farklı çalışma |
-| 26 | 2026-10-28 | 20:00 | vr14 | Sınav günü sabah rutini |
-| 27 | 2026-10-29 | 20:00 | kt13 | Soru sayısını değil, hata çeşidini say |
-| 28 | 2026-10-30 | 20:00 | ar01 | Motivasyonu beklemek |
-| 29 | 2026-10-31 | 20:00 | ar02 | Hata yapmaktan korkma |
-| 30 | 2026-11-01 | 20:00 | ar03 | Soru sayısını değil, hatayı say |
-| 31 | 2026-11-02 | 20:00 | ar04 | Sınavda boş kalan sorular |
-| 32 | 2026-11-03 | 20:00 | ar05 | Sen çalışmıyorsun |
-| 33 | 2026-11-04 | 20:00 | ar06 | Matematikte işlem sırası |
-| 34 | 2026-11-05 | 20:00 | ar07 | Formülü ezberlemek işe yaramaz |
-| 35 | 2026-11-06 | 20:00 | ar08 | Paragrafta ilk paragrafta cevap |
-| 36 | 2026-11-07 | 20:00 | ar09 | Bir günün nasıl bölünür |
-| 37 | 2026-11-08 | 20:00 | ar10 | Günde 15 kelime yeter |
-| 38 | 2026-11-09 | 20:00 | ar11 | Geç kaldım, şimdi ne yaparım |
-| 39 | 2026-11-10 | 20:00 | ar12 | Denemeyi çözmek yetmez |
-| 40 | 2026-11-11 | 20:00 | ar13 | Hatanın üç çeşidi |
-| 41 | 2026-11-12 | 20:00 | ar14 | Gece çalışmak işe yaramaz |
-| 42 | 2026-11-13 | 20:00 | ar15 | Telefon çalışırken açık |
-| 43 | 2026-11-14 | 20:00 | ar16 | İngilizce kelime bittikten sonra |
-| 44 | 2026-11-15 | 20:00 | ar17 | Sınav gecesi ne yapılır |
-| 45 | 2026-11-16 | 20:00 | ar18 | Netin neden artmıyor |
-| 46 | 2026-11-17 | 20:00 | ar19 | YKS için geç kaldım |
-| 47 | 2026-11-18 | 20:00 | ar20 | Veliye ne söylemeli |
-| 48 | 2026-11-19 | 20:00 | br01 | Türevi gizli kuvvet |
-| 49 | 2026-11-20 | 20:00 | br02 | Çarpanlara ayırmada üç deneme |
-| 50 | 2026-11-21 | 20:00 | br03 | Oran probleminde önce ne aranır |
-| 51 | 2026-11-22 | 20:00 | br04 | Çemberde merkez ve yarıçap |
-| 52 | 2026-11-23 | 20:00 | br05 | Üslü ifadelerde sıfır kuralı |
-| 53 | 2026-11-24 | 20:00 | br06 | Denklem kurarken okumama |
-| 54 | 2026-11-25 | 20:00 | br07 | Eşitsizlikte yön değiştirme |
-| 55 | 2026-11-26 | 20:00 | br08 | Açı sorularında ters açı |
-| 56 | 2026-11-27 | 20:00 | br09 | Artık yüzde karıştırma |
-| 57 | 2026-11-28 | 20:00 | br10 | Sadeleştirmeden önce çarpma |
-| 58 | 2026-11-29 | 20:00 | br11 | Fonksiyonda x yerine tablo |
-| 59 | 2026-11-30 | 20:00 | br12 | Parabolde tepe noktası |
-| 60 | 2026-12-01 | 20:00 | br13 | Olasılıkta en az bir |
-| 61 | 2026-12-02 | 20:00 | br14 | Geometride görünmeyen cisimler |
-| 62 | 2026-12-03 | 20:00 | br15 | Büyüktü eşittir geçişi |
-| 63 | 2026-12-04 | 20:00 | br16 | Deneme sonrası veli kontrolü |
-| 64 | 2026-12-05 | 20:00 | br17 | Çalışma saati gözlemi |
-| 65 | 2026-12-06 | 20:00 | br18 | Telefon kuralı |
-| 66 | 2026-12-07 | 20:00 | br19 | Hata çeşidi takibi |
-| 67 | 2026-12-08 | 20:00 | br20 | Unutulmadan tekrar |
-| 68 | 2026-12-09 | 20:00 | br21 | Gece çalışma |
-| 69 | 2026-12-10 | 20:00 | br22 | Planı pazartesiye bırakma |
-| 70 | 2026-12-11 | 20:00 | br23 | Motivasyonu beklemek |
-| 71 | 2026-12-12 | 20:00 | br24 | Yarın çalışırım |
-| 72 | 2026-12-13 | 20:00 | br25 | Net artmıyorsa |
-| 73 | 2026-12-14 | 20:00 | as01 | Saat sayarak çalışmak |
-| 74 | 2026-12-15 | 20:00 | as02 | Yeniden okumak çalışmaz |
-| 75 | 2026-12-16 | 20:00 | as03 | Telefon aynı masada |
-| 76 | 2026-12-17 | 20:00 | as04 | Gece çalışma, sabah pişmanlık |
-| 77 | 2026-12-18 | 20:00 | as05 | Sınavda önce hangi soru |
-| 78 | 2026-12-19 | 20:00 | as06 | Boş soruya tahmin yazma |
-| 79 | 2026-12-20 | 20:00 | as07 | Hatayı silip geçme |
-| 80 | 2026-12-21 | 20:00 | as08 | Denklem kurmadan bulunan cevap |
-| 81 | 2026-12-22 | 20:00 | as09 | Kelimeyi cümlesiz çalışma |
-| 82 | 2026-12-23 | 20:00 | as10 | Paragrafta şıktan başlama |
-| 83 | 2026-12-24 | 20:00 | as11 | Veli kaç saat soruyor |
-| 84 | 2026-12-25 | 20:00 | as12 | Motivasyonu beklemek |
-| 85 | 2026-12-26 | 20:00 | as13 | Haftayı pazartesi kurma |
-| 86 | 2026-12-27 | 20:00 | as14 | Sınav sabahı ne yapılır |
-| 87 | 2026-12-28 | 20:00 | as15 | Deneme sonrası ne yapılır |
-| 88 | 2026-12-29 | 20:00 | as16 | Türevi doğru sırayla öğren |
-| 89 | 2026-12-30 | 20:00 | as17 | Oran ve çember sırası |
-| 90 | 2026-12-31 | 20:00 | as18 | Sınavdan bir hafta önce |
-| 91 | 2027-01-01 | 20:00 | as19 | Denklem kurma sırası |
-| 92 | 2027-01-02 | 20:00 | as20 | Kelime ve paragraf sırası |
-| 93 | 2027-01-03 | 20:00 | ha09 | Konu bitince bırakmak |
-| 94 | 2027-01-04 | 20:00 | ha10 | Gece çalışıp sabah sınava girmek |
-| 95 | 2027-01-05 | 20:00 | ha11 | Not defterine bakarak çalışmak |
-| 96 | 2027-01-06 | 20:00 | ha12 | "Ders çalışmıyor" demek |
-| 97 | 2027-01-07 | 20:00 | hi01 | Bize Sor — burası senin için |
-| 98 | 2027-01-08 | 20:00 | hi02 | Veli Rehberi — ne sorulur, ne sorulmaz |
-| 99 | 2027-01-09 | 20:00 | hi03 | Deneme Analizi — net neden kaybediliyor |
-| 100 | 2027-01-10 | 20:00 | hi04 | Haftalık Plan — 7 gün, gün gün |
-| 101 | 2027-01-11 | 20:00 | hi05 | Konu Özeti — 3 cümlede özet |
-| 102 | 2027-01-12 | 20:00 | hi06 | Koç Notu — haftada bir prensip |
-| 103 | 2027-01-13 | 20:00 | hi07 | Sık Sorulanlar — en çok sorulanlar |
-| 104 | 2027-01-14 | 20:00 | hi08 | Öğrenciye Sor — sana göre |
-| 105 | 2027-01-15 | 20:00 | hi09 | Veliye Sor — velilerden gelenler |
-| 106 | 2027-01-16 | 20:00 | hi10 | Ücretsiz Deneme — nasıl başlanır |
-| 107 | 2027-01-17 | 20:00 | kn15 | İki ders aynı anda, hiçbir ders |
-| 108 | 2027-01-18 | 20:00 | kn16 | Anlatamıyorsan öğrenmemişsindir |
-| 109 | 2027-01-19 | 20:00 | kn17 | Ders izlemek öğrenmek değil |
-| 110 | 2027-01-20 | 20:00 | kn18 | Günde 12 konu planı, 1 konu yapar |
-| 111 | 2027-01-21 | 20:00 | kn19 | En zor işi ilk saat yap |
-| 112 | 2027-01-22 | 20:00 | kn20 | Bitirdiğin konuyu bırakma, takvime koy |
-| 113 | 2027-01-23 | 20:00 | ld02 | Virgülün iki işi |
-| 114 | 2027-01-24 | 20:00 | ld04 | Anlatım ve söz sanatları |
-| 115 | 2027-01-25 | 20:00 | ld06 | Hâl değişimi ve aynalar |
-| 116 | 2027-01-26 | 20:00 | ld08 | Kalıtım ve ekosistem |
-| 117 | 2027-01-27 | 20:00 | ld10 | Preposition ve soru cümlesi |
-| 118 | 2027-01-28 | 20:00 | lm02 | Üslüde asıl kafa karışıklığı |
-| 119 | 2027-01-29 | 20:00 | lm04 | Kareköklü üç adım |
-| 120 | 2027-01-30 | 20:00 | lm06 | Çarpanlara ayırmada üç deneme |
-| 121 | 2027-01-31 | 20:00 | lm08 | Eşitlik mi eşitsizlik mi |
-| 122 | 2027-02-01 | 20:00 | lm10 | İşçi-havuz ve hız problemleri |
-| 123 | 2027-02-02 | 20:00 | lm12 | Soruyu doğru yerden başlat |
-| 124 | 2027-02-03 | 20:00 | ogr-r01 | Erteleme döngüsünü kırmak |
-| 125 | 2027-02-04 | 20:00 | ogr-r02 | Uyanınca geçen ilk saat |
-| 126 | 2027-02-05 | 20:00 | ogr-r03 | 6 saat 30 soruya mı? |
-| 127 | 2027-02-06 | 20:00 | ogr-r04 | Okudum mu, çözdüm mü |
-| 128 | 2027-02-07 | 20:00 | ogr-r05 | Derse nereden başlanır |
-| 129 | 2027-02-08 | 20:00 | ogr-r06 | Yorgunken çalışmak |
-| 130 | 2027-02-09 | 20:00 | ogr-r07 | Derin çalışma hangisi |
-| 131 | 2027-02-10 | 20:00 | ogr-r08 | Yarın için 3 iş yaz |
-| 132 | 2027-02-11 | 20:00 | r00 | Motivasyon eksikliği bir tanı değil |
-| 133 | 2027-02-12 | 20:00 | r01 | Deneme sonrası 3 kutu yöntemi |
-| 134 | 2027-02-13 | 20:00 | r02 | Ders çalışıyorum net artmıyor |
-| 135 | 2027-02-14 | 20:00 | r03 | Hedef netliği ve sıralama |
-| 136 | 2027-02-15 | 20:00 | r04 | Velilere soru sorma rehberi |
-| 137 | 2027-02-16 | 20:00 | r05 | Yapay zeka soru çözümünde sınır |
-| 138 | 2027-02-17 | 20:00 | r10 | Çalışkanım ama netim artmıyor |
-| 139 | 2027-02-18 | 20:00 | r11 | Gece 1'e kadar çalışmak |
-| 140 | 2027-02-19 | 20:00 | r12 | Telefon dersi bitiriyor |
-| 141 | 2027-02-20 | 20:00 | r13 | Son 7 günde neye dokunulmaz |
-| 142 | 2027-02-21 | 20:00 | r14 | Neti yavaşlatan 3 alışkanlık |
-| 143 | 2027-02-22 | 20:00 | r15 | Eksik konu listesi nereden çıkar |
-| 144 | 2027-02-23 | 20:00 | r16 | Anlıyorum ama çözemiyorum |
-| 145 | 2027-02-24 | 20:00 | r17 | Denemede panik yapmamak |
-| 146 | 2027-02-25 | 20:00 | r18 | Soruyu atla, sonra dön |
-| 147 | 2027-02-26 | 20:00 | r19 | Sen bu konuyu bilmiyorsun |
-| 148 | 2027-02-27 | 20:00 | r20 | Keşke dememek için 5 kural |
-| 149 | 2027-02-28 | 20:00 | r21 | Motivasyon düştüğünde 5 dakika |
-| 150 | 2027-03-01 | 20:00 | r30 | Sınav öncesi yapılmaması gerekenler |
-| 151 | 2027-03-02 | 20:00 | r31 | Kaç net yerine sorulacak 5 soru |
-| 152 | 2027-03-03 | 20:00 | r32 | Sınav sabahı ne söylenmeli |
-| 153 | 2027-03-04 | 20:00 | r33 | Çalışıyor mu nasıl anlaşılır |
-| 154 | 2027-03-05 | 20:00 | r34 | Koç ve dershane seçiminde 3 soru |
-| 155 | 2027-03-06 | 20:00 | r35 | Veli raporunda neye bakılır |
-| 156 | 2027-03-07 | 20:00 | r36 | Motivasyon düştüyse velinin 3 işi |
-| 157 | 2027-03-08 | 20:00 | r37 | Yapay zeka araçlarında ebeveyn kontrolü |
-| 158 | 2027-03-09 | 20:00 | r38 | Sınav sonrası ilk 48 saat |
-| 159 | 2027-03-10 | 20:00 | r39 | Kaygı sende mi çocuğunda mı |
-| 160 | 2027-03-11 | 20:00 | r40 | Ailelerin en sık 3 büyük hatası |
-| 161 | 2027-03-12 | 20:00 | r41 | İki çocuklu ailede çalışma düzeni |
-| 162 | 2027-03-13 | 20:00 | r60 | Aynı konu neden bitmiyor |
-| 163 | 2027-03-14 | 20:00 | r61 | Konu tekrarı ne zaman yapılır |
-| 164 | 2027-03-15 | 20:00 | r62 | Çözümlü mü, cevapsız mı |
-| 165 | 2027-03-16 | 20:00 | r63 | Notta ne yazılır, ne yazılmaz |
-| 166 | 2027-03-17 | 20:00 | r64 | Hata defteri nasıl tutulur |
-| 167 | 2027-03-18 | 20:00 | r65 | Konu gerçekten bitti mi |
-| 168 | 2027-03-19 | 20:00 | r66 | Anladım demek öğrenmek değil |
-| 169 | 2027-03-20 | 20:00 | r67 | Zor konuya ilk adım ne olmalı |
-| 170 | 2027-03-21 | 20:00 | r68 | Deneme sonrası ilk yarım saat |
-| 171 | 2027-03-22 | 20:00 | r69 | Sınavda soru atlama kuralı |
-| 172 | 2027-03-23 | 20:00 | r70 | Sınavda süreyi nasıl kullanırsın |
-| 173 | 2027-03-24 | 20:00 | r71 | Son 7 gün planı nasıl kurulur |
-| 174 | 2027-03-25 | 20:00 | rn01 | Bu 5 hata matematik netini götürür |
-| 175 | 2027-03-26 | 20:00 | rn02 | Türkçede net kaybı — 4 hata |
-| 176 | 2027-03-27 | 20:00 | rn03 | Sınavda 4 zaman kuralı |
-| 177 | 2027-03-28 | 20:00 | rn04 | Net kaybı 3 kovaya ayır |
-| 178 | 2027-03-29 | 20:00 | rn05 | Denemeyi çözüp bırakmak en pahalı hata |
-| 179 | 2027-03-30 | 20:00 | rn06 | Karnen varsa 10 soruda konu eksiğini bul |
-| 180 | 2027-03-31 | 20:00 | rn07 | Net artmıyorsa süreyi değiştir |
-| 181 | 2027-04-01 | 20:00 | rn08 | Sınavda bildiğini kaçırma — 5 hata |
-| 182 | 2027-04-02 | 20:00 | rp01 | 7 günlük plan — 1. gün |
-| 183 | 2027-04-03 | 20:00 | rp02 | 7 günlük plan — 2. gün |
-| 184 | 2027-04-04 | 20:00 | rp03 | 7 günlük plan — 3. gün: tekrar |
-| 185 | 2027-04-05 | 20:00 | rp04 | 7 günlük plan — 4. gün: hız |
-| 186 | 2027-04-06 | 20:00 | rp05 | 7 günlük plan — 5. gün: deneme |
-| 187 | 2027-04-07 | 20:00 | rp06 | 7 günlük plan — 6. gün: onarım |
-| 188 | 2027-04-08 | 20:00 | rp07 | 7 günlük plan — 7. gün: kapanış |
-| 189 | 2027-04-09 | 20:00 | veli-r01 | Kırılganlık dönemi: arkadaş çevresi |
-| 190 | 2027-04-10 | 20:00 | veli-r02 | Okul kaygısı: gitmek istemiyorum |
-| 191 | 2027-04-11 | 20:00 | veli-r03 | Çocukla birlikte ders çalışma |
-| 192 | 2027-04-12 | 20:00 | veli-r04 | Motivasyonu ayakta tutan 3 kayıt |
-| 193 | 2027-04-13 | 20:00 | veli-r05 | “Ben çalışmıyorum” cümlesine cevap |
-| 194 | 2027-04-14 | 20:00 | yar04 | Yalnızca soru mu çözüyorsun? |
-| 195 | 2027-04-15 | 20:00 | veli-r06 | Eleştiri: suçlayan cümle |
-| 196 | 2027-04-16 | 20:00 | yar05 | Arkadaşınla düello |
-| 197 | 2027-04-17 | 20:00 | yar06 | Gece üçte |
-| 198 | 2027-04-18 | 20:00 | yar07 | Önce sen çöz, sonra sor |
-| 199 | 2027-04-19 | 20:00 | veli-r07 | Cevap vermemek de bir cezadır |
-| 200 | 2027-04-20 | 20:00 | yar08 | Düello: hız mı, temizlik mi |
-| 201 | 2027-04-21 | 20:00 | yar09 | Düelloda kazanan değil, kalan kazanır |
-| 202 | 2027-04-22 | 20:00 | yar10 | Hata analizi sana net kazandırmaz |
-| 203 | 2027-04-23 | 20:00 | veli-r08 | Veli grubunda net paylaşımı |
-| 204 | 2027-04-24 | 20:00 | yar11 | Bunu yapamıyorum, listede var |
-| 205 | 2027-04-25 | 20:00 | yar12 | Soruyu böyle sor, cevabı böyle al |
-| 206 | 2027-04-26 | 20:00 | yar13 | Her derste aynı işe yaramıyor |
-| 207 | 2027-04-27 | 20:00 | yar01 | Sadece fotoğraf çek |
-| 208 | 2027-04-28 | 20:00 | yar14 | Boş bıraktığın soru hiç görünmüyor |
-| 209 | 2027-04-29 | 20:00 | ym02 | Parabol tepe noktası ve logaritma |
-| 210 | 2027-04-30 | 20:00 | ym04 | Türev ve limit: dört adım |
-| 211 | 2027-05-01 | 20:00 | yar02 | Bir haftalık iş, 5 saniye |
-| 212 | 2027-05-02 | 20:00 | ym06 | Vektör ve analitik geometri |
-| 213 | 2027-05-03 | 20:00 | ym08 | Sözelde kavramı karşılaştırarak öğren |
-| 214 | 2027-05-04 | 20:00 | yar03 | Önce sen çöz |
+| 2 | 2026-10-06 | 20:00 | os10 | Yarım bıraktığın bir ders var mı? |
+| 3 | 2026-10-08 | 20:00 | vs09 | Çocuğunuz bugün hangi konuyu çalıştı, biliyor musunuz? |
+| 4 | 2026-10-09 | 20:00 | vs10 | Sınav kaygısını siz mi artırıyorsunuz? |
+| 5 | 2026-10-10 | 20:00 | vs11 | Hangi dersi siz önceliklendiriyorsunuz? |
+| 6 | 2026-10-11 | 20:00 | vk13 | Çalışmıyor mu, başlayamıyor mu |
+| 7 | 2026-10-12 | 20:00 | vk14 | Kaç saat sorusunu bırakın |
+| 8 | 2026-10-13 | 20:00 | vk15 | Telefon yasağı neden tutmuyor |
+| 9 | 2026-10-14 | 20:00 | vk16 | Deneme sonrası ilk yarım saat |
+| 10 | 2026-10-15 | 20:00 | vk17 | Dershane mi, online mı |
+| 11 | 2026-10-16 | 20:00 | vk18 | Ağladığında ne söylemeli |
+| 12 | 2026-10-17 | 20:00 | vk19 | Kaç net hedefliyorsun |
+| 13 | 2026-10-19 | 20:00 | et13 | Telefon masada kaç dakika dayanır |
+| 14 | 2026-10-20 | 20:00 | rk16 | Ev videosu 2009 |
+| 15 | 2026-10-21 | 20:00 | os09 | Hata defterin var mı? |
+| 16 | 2026-10-22 | 20:00 | rk17 | Son dakika |
+| 17 | 2026-10-23 | 20:00 | os11 | Sınav saatinde mi uyuyorsun? |
+| 18 | 2026-10-24 | 20:00 | rk19 | Rpg gorev |
+| 19 | 2026-10-25 | 20:00 | vr11 | Hangi ders güçlendirilmeli |
+| 20 | 2026-10-26 | 20:00 | rk20 | Defter karalama |
+| 21 | 2026-10-27 | 20:00 | vr12 | Motivasyon cümlesi kurma hatası |
+| 22 | 2026-10-28 | 20:00 | rk22 | Ekim ozetin |
+| 23 | 2026-10-29 | 20:00 | kt14 | Geç kalan öğrenci ne yapsın? |
+| 24 | 2026-10-30 | 20:00 | rk24 | Saat 2247 trakya |
+| 25 | 2026-10-31 | 20:00 | kt15 | Sınav kaygısı: dört sayı |
+| 26 | 2026-11-01 | 20:00 | rk25 | Haftanin fisi |
+| 27 | 2026-11-02 | 20:00 | kt16 | Sınavda üç turlu sıralama |
+| 28 | 2026-11-03 | 20:00 | rk26 | Baba ogul 916 |
+| 29 | 2026-11-04 | 20:00 | kt17 | Doğru çözümü okumak yetmez |
+| 30 | 2026-11-05 | 20:00 | rk27 | Ders calistin mi 916 |
+| 31 | 2026-11-06 | 20:00 | kt18 | Tekrar üç günde biter |
+| 32 | 2026-11-07 | 20:00 | rk29 | Koc paneli 916 |
+| 33 | 2026-11-08 | 20:00 | kt19 | Motivasyon yoksa asgari görev |
+| 34 | 2026-11-09 | 20:00 | rk30 | Bu kep 916 |
+| 35 | 2026-11-10 | 20:00 | vr13 | Deneme sonrası ilk 30 dakika |
+| 36 | 2026-11-11 | 20:00 | rk31 | Kendi hizinda 916 |
+| 37 | 2026-11-12 | 20:00 | kt20 | İki hata, iki farklı çalışma |
+| 38 | 2026-11-13 | 20:00 | rk32 | Arama cubugu 916 |
+| 39 | 2026-11-14 | 20:00 | vr14 | Sınav günü sabah rutini |
+| 40 | 2026-11-15 | 20:00 | rk33 | Kilit ekrani 916 |
+| 41 | 2026-11-16 | 20:00 | kt13 | Soru sayısını değil, hata çeşidini say |
+| 42 | 2026-11-17 | 20:00 | rk35 | Kalkis panosu 916 |
+| 43 | 2026-11-18 | 20:00 | ar01 | Motivasyonu beklemek |
+| 44 | 2026-11-19 | 20:00 | rk36 | Son soru 916 |
+| 45 | 2026-11-20 | 20:00 | ar02 | Hata yapmaktan korkma |
+| 46 | 2026-11-21 | 20:00 | rk39 | Kapak yildizi 916 |
+| 47 | 2026-11-22 | 20:00 | ar03 | Soru sayısını değil, hatayı say |
+| 48 | 2026-11-23 | 20:00 | rk41 | Podcast 916 |
+| 49 | 2026-11-24 | 20:00 | ar04 | Sınavda boş kalan sorular |
+| 50 | 2026-11-25 | 20:00 | rk44 | Pano 916 |
+| 51 | 2026-11-26 | 20:00 | ar05 | Sen çalışmıyorsun |
+| 52 | 2026-11-27 | 20:00 | rk48 | Sohbet 916 |
+| 53 | 2026-11-28 | 20:00 | ar06 | Matematikte işlem sırası |
+| 54 | 2026-11-29 | 20:00 | rk50 | Ozet 916 |
+| 55 | 2026-11-30 | 20:00 | ar07 | Formülü ezberlemek işe yaramaz |
+| 56 | 2026-12-01 | 20:00 | rk51 | Veli rapor 916 |
+| 57 | 2026-12-02 | 20:00 | ar08 | Paragrafta ilk paragrafta cevap |
+| 58 | 2026-12-03 | 20:00 | rk52 | Fotograf 916 |
+| 59 | 2026-12-04 | 20:00 | ar09 | Bir günün nasıl bölünür |
+| 60 | 2026-12-05 | 20:00 | rk54 | Deneme 916 |
+| 61 | 2026-12-06 | 20:00 | ar10 | Günde 15 kelime yeter |
+| 62 | 2026-12-07 | 20:00 | rk55 | Tur 916 |
+| 63 | 2026-12-08 | 20:00 | ar11 | Geç kaldım, şimdi ne yaparım |
+| 64 | 2026-12-09 | 20:00 | rk56 | Plan sihirbazi 916 r3 |
+| 65 | 2026-12-10 | 20:00 | ar12 | Denemeyi çözmek yetmez |
+| 66 | 2026-12-11 | 20:00 | ar13 | Hatanın üç çeşidi |
+| 67 | 2026-12-12 | 20:00 | ar14 | Gece çalışmak işe yaramaz |
+| 68 | 2026-12-13 | 20:00 | ar15 | Telefon çalışırken açık |
+| 69 | 2026-12-14 | 20:00 | ar16 | İngilizce kelime bittikten sonra |
+| 70 | 2026-12-15 | 20:00 | ar17 | Sınav gecesi ne yapılır |
+| 71 | 2026-12-16 | 20:00 | ar18 | Netin neden artmıyor |
+| 72 | 2026-12-17 | 20:00 | ar19 | YKS için geç kaldım |
+| 73 | 2026-12-18 | 20:00 | ar20 | Veliye ne söylemeli |
+| 74 | 2026-12-19 | 20:00 | br01 | Türevi gizli kuvvet |
+| 75 | 2026-12-20 | 20:00 | br02 | Çarpanlara ayırmada üç deneme |
+| 76 | 2026-12-21 | 20:00 | br03 | Oran probleminde önce ne aranır |
+| 77 | 2026-12-22 | 20:00 | br04 | Çemberde merkez ve yarıçap |
+| 78 | 2026-12-23 | 20:00 | br05 | Üslü ifadelerde sıfır kuralı |
+| 79 | 2026-12-24 | 20:00 | br06 | Denklem kurarken okumama |
+| 80 | 2026-12-25 | 20:00 | br07 | Eşitsizlikte yön değiştirme |
+| 81 | 2026-12-26 | 20:00 | br08 | Açı sorularında ters açı |
+| 82 | 2026-12-27 | 20:00 | br09 | Artık yüzde karıştırma |
+| 83 | 2026-12-28 | 20:00 | br10 | Sadeleştirmeden önce çarpma |
+| 84 | 2026-12-29 | 20:00 | br11 | Fonksiyonda x yerine tablo |
+| 85 | 2026-12-30 | 20:00 | br12 | Parabolde tepe noktası |
+| 86 | 2026-12-31 | 20:00 | br13 | Olasılıkta en az bir |
+| 87 | 2027-01-01 | 20:00 | br14 | Geometride görünmeyen cisimler |
+| 88 | 2027-01-02 | 20:00 | br15 | Büyüktü eşittir geçişi |
+| 89 | 2027-01-03 | 20:00 | br16 | Deneme sonrası veli kontrolü |
+| 90 | 2027-01-04 | 20:00 | br17 | Çalışma saati gözlemi |
+| 91 | 2027-01-05 | 20:00 | br18 | Telefon kuralı |
+| 92 | 2027-01-06 | 20:00 | br19 | Hata çeşidi takibi |
+| 93 | 2027-01-07 | 20:00 | br20 | Unutulmadan tekrar |
+| 94 | 2027-01-08 | 20:00 | br21 | Gece çalışma |
+| 95 | 2027-01-09 | 20:00 | br22 | Planı pazartesiye bırakma |
+| 96 | 2027-01-10 | 20:00 | br23 | Motivasyonu beklemek |
+| 97 | 2027-01-11 | 20:00 | br24 | Yarın çalışırım |
+| 98 | 2027-01-12 | 20:00 | br25 | Net artmıyorsa |
+| 99 | 2027-01-13 | 20:00 | as01 | Saat sayarak çalışmak |
+| 100 | 2027-01-14 | 20:00 | as02 | Yeniden okumak çalışmaz |
+| 101 | 2027-01-15 | 20:00 | as03 | Telefon aynı masada |
+| 102 | 2027-01-16 | 20:00 | as04 | Gece çalışma, sabah pişmanlık |
+| 103 | 2027-01-17 | 20:00 | as05 | Sınavda önce hangi soru |
+| 104 | 2027-01-18 | 20:00 | as06 | Boş soruya tahmin yazma |
+| 105 | 2027-01-19 | 20:00 | as07 | Hatayı silip geçme |
+| 106 | 2027-01-20 | 20:00 | as08 | Denklem kurmadan bulunan cevap |
+| 107 | 2027-01-21 | 20:00 | as09 | Kelimeyi cümlesiz çalışma |
+| 108 | 2027-01-22 | 20:00 | as10 | Paragrafta şıktan başlama |
+| 109 | 2027-01-23 | 20:00 | as11 | Veli kaç saat soruyor |
+| 110 | 2027-01-24 | 20:00 | as12 | Motivasyonu beklemek |
+| 111 | 2027-01-25 | 20:00 | as13 | Haftayı pazartesi kurma |
+| 112 | 2027-01-26 | 20:00 | as14 | Sınav sabahı ne yapılır |
+| 113 | 2027-01-27 | 20:00 | as15 | Deneme sonrası ne yapılır |
+| 114 | 2027-01-28 | 20:00 | as16 | Türevi doğru sırayla öğren |
+| 115 | 2027-01-29 | 20:00 | as17 | Oran ve çember sırası |
+| 116 | 2027-01-30 | 20:00 | as18 | Sınavdan bir hafta önce |
+| 117 | 2027-01-31 | 20:00 | as19 | Denklem kurma sırası |
+| 118 | 2027-02-01 | 20:00 | as20 | Kelime ve paragraf sırası |
+| 119 | 2027-02-02 | 20:00 | ha09 | Konu bitince bırakmak |
+| 120 | 2027-02-03 | 20:00 | ha10 | Gece çalışıp sabah sınava girmek |
+| 121 | 2027-02-04 | 20:00 | ha11 | Not defterine bakarak çalışmak |
+| 122 | 2027-02-05 | 20:00 | ha12 | "Ders çalışmıyor" demek |
+| 123 | 2027-02-06 | 20:00 | hi01 | Bize Sor — burası senin için |
+| 124 | 2027-02-07 | 20:00 | hi02 | Veli Rehberi — ne sorulur, ne sorulmaz |
+| 125 | 2027-02-08 | 20:00 | hi03 | Deneme Analizi — net neden kaybediliyor |
+| 126 | 2027-02-09 | 20:00 | hi04 | Haftalık Plan — 7 gün, gün gün |
+| 127 | 2027-02-10 | 20:00 | hi05 | Konu Özeti — 3 cümlede özet |
+| 128 | 2027-02-11 | 20:00 | hi06 | Koç Notu — haftada bir prensip |
+| 129 | 2027-02-12 | 20:00 | hi07 | Sık Sorulanlar — en çok sorulanlar |
+| 130 | 2027-02-13 | 20:00 | hi08 | Öğrenciye Sor — sana göre |
+| 131 | 2027-02-14 | 20:00 | hi09 | Veliye Sor — velilerden gelenler |
+| 132 | 2027-02-15 | 20:00 | hi10 | Ücretsiz Deneme — nasıl başlanır |
+| 133 | 2027-02-16 | 20:00 | kn15 | İki ders aynı anda, hiçbir ders |
+| 134 | 2027-02-17 | 20:00 | kn16 | Anlatamıyorsan öğrenmemişsindir |
+| 135 | 2027-02-18 | 20:00 | kn17 | Ders izlemek öğrenmek değil |
+| 136 | 2027-02-19 | 20:00 | kn18 | Günde 12 konu planı, 1 konu yapar |
+| 137 | 2027-02-20 | 20:00 | kn19 | En zor işi ilk saat yap |
+| 138 | 2027-02-21 | 20:00 | kn20 | Bitirdiğin konuyu bırakma, takvime koy |
+| 139 | 2027-02-22 | 20:00 | ld02 | Virgülün iki işi |
+| 140 | 2027-02-23 | 20:00 | ld04 | Anlatım ve söz sanatları |
+| 141 | 2027-02-24 | 20:00 | ld06 | Hâl değişimi ve aynalar |
+| 142 | 2027-02-25 | 20:00 | ld08 | Kalıtım ve ekosistem |
+| 143 | 2027-02-26 | 20:00 | ld10 | Preposition ve soru cümlesi |
+| 144 | 2027-02-27 | 20:00 | lm02 | Üslüde asıl kafa karışıklığı |
+| 145 | 2027-02-28 | 20:00 | lm04 | Kareköklü üç adım |
+| 146 | 2027-03-01 | 20:00 | lm06 | Çarpanlara ayırmada üç deneme |
+| 147 | 2027-03-02 | 20:00 | lm08 | Eşitlik mi eşitsizlik mi |
+| 148 | 2027-03-03 | 20:00 | lm10 | İşçi-havuz ve hız problemleri |
+| 149 | 2027-03-04 | 20:00 | lm12 | Soruyu doğru yerden başlat |
+| 150 | 2027-03-05 | 20:00 | ogr-r01 | Erteleme döngüsünü kırmak |
+| 151 | 2027-03-06 | 20:00 | ogr-r02 | Uyanınca geçen ilk saat |
+| 152 | 2027-03-07 | 20:00 | ogr-r03 | 6 saat 30 soruya mı? |
+| 153 | 2027-03-08 | 20:00 | ogr-r04 | Okudum mu, çözdüm mü |
+| 154 | 2027-03-09 | 20:00 | ogr-r05 | Derse nereden başlanır |
+| 155 | 2027-03-10 | 20:00 | ogr-r06 | Yorgunken çalışmak |
+| 156 | 2027-03-11 | 20:00 | ogr-r07 | Derin çalışma hangisi |
+| 157 | 2027-03-12 | 20:00 | ogr-r08 | Yarın için 3 iş yaz |
+| 158 | 2027-03-13 | 20:00 | r00 | Motivasyon eksikliği bir tanı değil |
+| 159 | 2027-03-14 | 20:00 | r01 | Deneme sonrası 3 kutu yöntemi |
+| 160 | 2027-03-15 | 20:00 | r02 | Ders çalışıyorum net artmıyor |
+| 161 | 2027-03-16 | 20:00 | r03 | Hedef netliği ve sıralama |
+| 162 | 2027-03-17 | 20:00 | r04 | Velilere soru sorma rehberi |
+| 163 | 2027-03-18 | 20:00 | r05 | Yapay zeka soru çözümünde sınır |
+| 164 | 2027-03-19 | 20:00 | r10 | Çalışkanım ama netim artmıyor |
+| 165 | 2027-03-20 | 20:00 | r11 | Gece 1'e kadar çalışmak |
+| 166 | 2027-03-21 | 20:00 | r12 | Telefon dersi bitiriyor |
+| 167 | 2027-03-22 | 20:00 | r13 | Son 7 günde neye dokunulmaz |
+| 168 | 2027-03-23 | 20:00 | r14 | Neti yavaşlatan 3 alışkanlık |
+| 169 | 2027-03-24 | 20:00 | r15 | Eksik konu listesi nereden çıkar |
+| 170 | 2027-03-25 | 20:00 | r16 | Anlıyorum ama çözemiyorum |
+| 171 | 2027-03-26 | 20:00 | r17 | Denemede panik yapmamak |
+| 172 | 2027-03-27 | 20:00 | r18 | Soruyu atla, sonra dön |
+| 173 | 2027-03-28 | 20:00 | r19 | Sen bu konuyu bilmiyorsun |
+| 174 | 2027-03-29 | 20:00 | r20 | Keşke dememek için 5 kural |
+| 175 | 2027-03-30 | 20:00 | r21 | Motivasyon düştüğünde 5 dakika |
+| 176 | 2027-03-31 | 20:00 | r30 | Sınav öncesi yapılmaması gerekenler |
+| 177 | 2027-04-01 | 20:00 | r31 | Kaç net yerine sorulacak 5 soru |
+| 178 | 2027-04-02 | 20:00 | r32 | Sınav sabahı ne söylenmeli |
+| 179 | 2027-04-03 | 20:00 | r33 | Çalışıyor mu nasıl anlaşılır |
+| 180 | 2027-04-04 | 20:00 | r34 | Koç ve dershane seçiminde 3 soru |
+| 181 | 2027-04-05 | 20:00 | r35 | Veli raporunda neye bakılır |
+| 182 | 2027-04-06 | 20:00 | r36 | Motivasyon düştüyse velinin 3 işi |
+| 183 | 2027-04-07 | 20:00 | r37 | Yapay zeka araçlarında ebeveyn kontrolü |
+| 184 | 2027-04-08 | 20:00 | r38 | Sınav sonrası ilk 48 saat |
+| 185 | 2027-04-09 | 20:00 | r39 | Kaygı sende mi çocuğunda mı |
+| 186 | 2027-04-10 | 20:00 | r40 | Ailelerin en sık 3 büyük hatası |
+| 187 | 2027-04-11 | 20:00 | r41 | İki çocuklu ailede çalışma düzeni |
+| 188 | 2027-04-12 | 20:00 | r60 | Aynı konu neden bitmiyor |
+| 189 | 2027-04-13 | 20:00 | r61 | Konu tekrarı ne zaman yapılır |
+| 190 | 2027-04-14 | 20:00 | r62 | Çözümlü mü, cevapsız mı |
+| 191 | 2027-04-15 | 20:00 | r63 | Notta ne yazılır, ne yazılmaz |
+| 192 | 2027-04-16 | 20:00 | r64 | Hata defteri nasıl tutulur |
+| 193 | 2027-04-17 | 20:00 | r65 | Konu gerçekten bitti mi |
+| 194 | 2027-04-18 | 20:00 | r66 | Anladım demek öğrenmek değil |
+| 195 | 2027-04-19 | 20:00 | r67 | Zor konuya ilk adım ne olmalı |
+| 196 | 2027-04-20 | 20:00 | r68 | Deneme sonrası ilk yarım saat |
+| 197 | 2027-04-21 | 20:00 | r69 | Sınavda soru atlama kuralı |
+| 198 | 2027-04-22 | 20:00 | r70 | Sınavda süreyi nasıl kullanırsın |
+| 199 | 2027-04-23 | 20:00 | r71 | Son 7 gün planı nasıl kurulur |
+| 200 | 2027-04-24 | 20:00 | rn01 | Bu 5 hata matematik netini götürür |
+| 201 | 2027-04-25 | 20:00 | rn02 | Türkçede net kaybı — 4 hata |
+| 202 | 2027-04-26 | 20:00 | rn03 | Sınavda 4 zaman kuralı |
+| 203 | 2027-04-27 | 20:00 | rn04 | Net kaybı 3 kovaya ayır |
+| 204 | 2027-04-28 | 20:00 | rn05 | Denemeyi çözüp bırakmak en pahalı hata |
+| 205 | 2027-04-29 | 20:00 | rn06 | Karnen varsa 10 soruda konu eksiğini bul |
+| 206 | 2027-04-30 | 20:00 | rn07 | Net artmıyorsa süreyi değiştir |
+| 207 | 2027-05-01 | 20:00 | rn08 | Sınavda bildiğini kaçırma — 5 hata |
+| 208 | 2027-05-02 | 20:00 | rp01 | 7 günlük plan — 1. gün |
+| 209 | 2027-05-03 | 20:00 | rp02 | 7 günlük plan — 2. gün |
+| 210 | 2027-05-04 | 20:00 | rp03 | 7 günlük plan — 3. gün: tekrar |
+| 211 | 2027-05-05 | 20:00 | rp04 | 7 günlük plan — 4. gün: hız |
+| 212 | 2027-05-06 | 20:00 | rp05 | 7 günlük plan — 5. gün: deneme |
+| 213 | 2027-05-07 | 20:00 | rp06 | 7 günlük plan — 6. gün: onarım |
+| 214 | 2027-05-08 | 20:00 | rp07 | 7 günlük plan — 7. gün: kapanış |
+| 215 | 2027-05-09 | 20:00 | veli-r01 | Kırılganlık dönemi: arkadaş çevresi |
+| 216 | 2027-05-10 | 20:00 | veli-r02 | Okul kaygısı: gitmek istemiyorum |
+| 217 | 2027-05-11 | 20:00 | veli-r03 | Çocukla birlikte ders çalışma |
+| 218 | 2027-05-12 | 20:00 | veli-r04 | Motivasyonu ayakta tutan 3 kayıt |
+| 219 | 2027-05-13 | 20:00 | veli-r05 | “Ben çalışmıyorum” cümlesine cevap |
+| 220 | 2027-05-14 | 20:00 | yar04 | Yalnızca soru mu çözüyorsun? |
+| 221 | 2027-05-15 | 20:00 | veli-r06 | Eleştiri: suçlayan cümle |
+| 222 | 2027-05-16 | 20:00 | yar05 | Arkadaşınla düello |
+| 223 | 2027-05-17 | 20:00 | yar06 | Gece üçte |
+| 224 | 2027-05-18 | 20:00 | yar07 | Önce sen çöz, sonra sor |
+| 225 | 2027-05-19 | 20:00 | veli-r07 | Cevap vermemek de bir cezadır |
+| 226 | 2027-05-20 | 20:00 | yar08 | Düello: hız mı, temizlik mi |
+| 227 | 2027-05-21 | 20:00 | yar09 | Düelloda kazanan değil, kalan kazanır |
+| 228 | 2027-05-22 | 20:00 | yar10 | Hata analizi sana net kazandırmaz |
+| 229 | 2027-05-23 | 20:00 | veli-r08 | Veli grubunda net paylaşımı |
+| 230 | 2027-05-24 | 20:00 | yar11 | Bunu yapamıyorum, listede var |
+| 231 | 2027-05-25 | 20:00 | yar12 | Soruyu böyle sor, cevabı böyle al |
+| 232 | 2027-05-26 | 20:00 | yar13 | Her derste aynı işe yaramıyor |
+| 233 | 2027-05-27 | 20:00 | yar01 | Sadece fotoğraf çek |
+| 234 | 2027-05-28 | 20:00 | yar14 | Boş bıraktığın soru hiç görünmüyor |
+| 235 | 2027-05-29 | 20:00 | ym02 | Parabol tepe noktası ve logaritma |
+| 236 | 2027-05-30 | 20:00 | ym04 | Türev ve limit: dört adım |
+| 237 | 2027-05-31 | 20:00 | yar02 | Bir haftalık iş, 5 saniye |
+| 238 | 2027-06-01 | 20:00 | ym06 | Vektör ve analitik geometri |
+| 239 | 2027-06-02 | 20:00 | ym08 | Sözelde kavramı karşılaştırarak öğren |
+| 240 | 2027-06-03 | 20:00 | yar03 | Önce sen çöz |
 
 ## Karusel (569 adet kaldı, her gün 13:00; 10 adet 2026-10-18 itibarıyla paylaşıldı, kuyruktan çıkarıldı)
 
