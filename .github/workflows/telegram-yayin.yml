@@ -1,6 +1,7 @@
 name: Telegram yayını
 on:
   schedule:
+    - cron: '30 10 * * *'   # 13:30 TR
     - cron: '30 17 * * *'   # 20:30 TR
   workflow_dispatch:
     inputs:
@@ -10,13 +11,12 @@ permissions: { contents: write }
 jobs:
   yayinla:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
     env:
       MEDYA_URL: https://onlinekocun-medya.vercel.app
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 22 }
+        with: { fetch-depth: 1 }
       - name: Gönder
         env: { TG_BOT_TOKEN: '${{ secrets.TG_BOT_TOKEN }}' }
         run: |

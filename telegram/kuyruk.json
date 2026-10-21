@@ -2,37 +2,282 @@
  {
   "id": "tg02",
   "tarih": "2026-10-22",
+  "saat": "20:30",
+  "tur": "video",
   "video": "r/vk14/v.mp4",
   "metin": "\"Kaç saat çalıştın?\" sorusu süreyi ölçer, çalışmanın içinde ne olduğunu söylemez.\n\nBu akşam şunu dene: \"Bugün hangi konuyu çalıştın, nerede takıldın?\"\n\nVideoda neyi sormak gerektiğini anlattık."
  },
  {
   "id": "tg03",
   "tarih": "2026-10-23",
+  "saat": "20:30",
+  "tur": "video",
   "video": "r/vr13/v.mp4",
   "metin": "Deneme bittiği an evin çalışması başlıyor.\n\nDeneme sonrası ilk yarım saat, bir sonraki haftanın nasıl geçeceğini belirliyor.\n\nVeliler için kısa bir not hazırladık, 30 saniyede izlenir."
  },
  {
   "id": "tg04",
   "tarih": "2026-10-24",
+  "saat": "20:30",
+  "tur": "video",
   "video": "r/vk15/v.mp4",
   "metin": "Telefon yasağı, telefon odaya taşındıkça işlemiyor.\n\nYasak ile kural farklı şeyler. Kuralı çocukla birlikte yazmak ikisini ayıran fark.\n\nVideoda nasıl yazıldığını anlattık."
  },
  {
   "id": "tg05",
   "tarih": "2026-10-25",
+  "saat": "20:30",
+  "tur": "video",
   "video": "r/vk13/v.mp4",
   "metin": "\"Ders çalışmıyor\" cümlesi iki farklı sorunu anlatıyor olabilir:\n\n1. Hiç başlamıyor\n2. Başlıyor ama bırakıyor\n\nİkisinin çözümü aynı değil. Çocuğun hangisi olduğunu bir gün gözle."
  },
  {
   "id": "tg06",
   "tarih": "2026-10-26",
+  "saat": "20:30",
+  "tur": "video",
   "video": "r/vr14/v.mp4",
   "metin": "Sınav sabahını kimin planladığı önemli.\n\nSabah rutinini sınavdan bir hafta önce yazarsan, sınav günü sadece uygulanır, karar verilmez.\n\nVideoyu sınava girecek çocuğu olan velilere ilet."
  },
  {
   "id": "tg07",
   "tarih": "2026-10-27",
+  "saat": "20:30",
+  "tur": "video",
   "video": "t/v27.mp4",
   "metin": "\"Ders çalıştın mı?\" diye sormaya gerek kalmasın.\n\nOnlineKoçun'daki veli raporunda şunlar var: kaç saat çalıştı, kaç soru çözdü, hangi konuda zorlandı.\n\nBakmak istersen: {LINK}\n\nBu kanal işine yaradıysa başka bir veliye ilet: {KANAL}"
+ },
+ {
+  "id": "kt01",
+  "tarih": "2026-10-28",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "LGS'ye hazırlananlara: Bakanlığın 2026 LGS soru kitapçıkları ve cevap anahtarları yayımlandı.\nSınav iki oturum: sözel 50, sayısal 40 soru.\nKitapçığı süre tutarak çöz, sonra yalnızca yanlışlarına bak.\nMEB duyuru sayfası: https://odsgm.meb.gov.tr/www/lgs-kapsamindaki-merkezi-sinavin-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi/icerik/1678"
+ },
+ {
+  "id": "kt02",
+  "tarih": "2026-10-28",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r63/v.mp4",
+  "metin": "Defter kalınlaştı diye çok çalışmış olmuyorsun.\nDeftere her şeyi değil, tekrar bakacağın şeyi yaz. Neyin yazılıp neyin yazılmayacağını videoda ayırdık.\nBu akşam defterine bak: hangi sayfaya geri dönersin?"
+ },
+ {
+  "id": "kt03",
+  "tarih": "2026-10-29",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Cumhuriyetimizin 103. yılı kutlu olsun 🇹🇷\nBugün çalışma planına küçük bir mola koy; ailenle, arkadaşlarınla bayramın tadını çıkar. Yarın kaldığımız yerden devam."
+ },
+ {
+  "id": "kt04",
+  "tarih": "2026-10-29",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r31/v.mp4",
+  "metin": "\"Kaç net oldu?\" çocuğun önüne tek bir cevap koyar.\nSohbeti açan beş farklı soruyu videoda anlattık.\nBu akşam netten önce şunu sor: \"Sınavda seni en çok ne zorladı?\""
+ },
+ {
+  "id": "kt05",
+  "tarih": "2026-10-30",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Deneme bitti, netini doğru hesapladın mı?\nLGS'de 3 yanlış 1 doğruyu götürür, TYT ve AYT'de 4 yanlış 1 doğruyu.\nNet = doğru − yanlış ÷ 3 (LGS) ya da ÷ 4 (TYT/AYT).\nNet hesaplayıcı: {LINK}",
+  "link_yol": "/net-hesapla.html"
+ },
+ {
+  "id": "kt06",
+  "tarih": "2026-10-30",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/as01/v.mp4",
+  "metin": "Masada geçen saat ölçülür ama işe yarayan çalışma ölçülmez.\nBugün şunu dene: kaç saat oturduğunu değil, kaç soru çözdüğünü ve kaçını yapamadığını yaz.\nVideoda küçük bir değişiklik anlattık."
+ },
+ {
+  "id": "kt07",
+  "tarih": "2026-10-31",
+  "saat": "13:30",
+  "tur": "anket",
+  "anket": {
+   "soru": "Deneme bittikten sonra ilk ne yapıyorsun?",
+   "secenekler": [
+    "Yanlışlarımı deftere yazıyorum",
+    "Netime bakıp kapatıyorum",
+    "Yanlışları yeniden çözüyorum",
+    "Hocamla ya da ailemle konuşuyorum"
+   ]
+  },
+  "metin": "Haftanın sorusu: deneme bittikten sonra ilk ne yapıyorsun?"
+ },
+ {
+  "id": "kt08",
+  "tarih": "2026-10-31",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/br01/v.mp4",
+  "metin": "Fonksiyonun yükselip alçaldığı soruluyorsa türev bunu söyler.\nTürevi, fonksiyonun hangi yöne gittiğini gösteren bir ipucu gibi düşün.\nYKS Matematik için kısa bir video."
+ },
+ {
+  "id": "kt09",
+  "tarih": "2026-11-01",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "YKS'ye hazırlananlara: ÖSYM 2026-YKS TYT, AYT ve YDT soru kitapçıklarını ve cevap anahtarlarını yayımlamış durumda. (TYT 20 Haziran, AYT ve YDT 21 Haziran 2026 oturumları.)\nBir TYT oturumunu süre tutarak çöz, sonra yanlışlarını hata çeşidine göre ayır.\nÖSYM sayfası: https://www.osym.gov.tr/2026yks-tyt-ayt-ve-ydt-temel-soru-kitapciklari-ve-cevap-anahtarlari"
+ },
+ {
+  "id": "kt10",
+  "tarih": "2026-11-01",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r36/v.mp4",
+  "metin": "Motivasyon düşünce ilk tepki genelde \"neden çalışmıyorsun?\" oluyor.\nVideoda velinin üç somut görevini anlattık.\nEvde konuşmaya veriyle başlamak istersen OnlineKoçun veli karnesi ve performans raporu: {LINK}",
+  "link_yol": "/veli-raporu.html"
+ },
+ {
+  "id": "kt11",
+  "tarih": "2026-11-02",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Pazartesi sabahı, bu haftanın üç işini yaz:\n1. En zayıf dersten bir konu\n2. Bir deneme ya da soru seti\n3. Yanlışlara dönüş saati\nTakvimine saat koy, kalanı esnek bırak."
+ },
+ {
+  "id": "kt12",
+  "tarih": "2026-11-02",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/ar07/v.mp4",
+  "metin": "Fizikte formül ezberlemek, soruyu nereden okuyacağını bilmekten daha az işe yarıyor.\nÖnce sorunun ne istediğini bul, sonra formüle git.\nÇalışma düzenini oturtmaya çalışanlar için kısa bir video."
+ },
+ {
+  "id": "kt13",
+  "tarih": "2026-11-03",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Aynı hatayı üçüncü kez yapıyorsan sorun bilgi olmayabilir.\nBu akşam son üç yanlışına bak: kural bilgisi mi, işlem hatası mı, dikkatsizlik mi?\nHangisi çoksa onu çalış, hepsini birden değil."
+ },
+ {
+  "id": "kt14",
+  "tarih": "2026-11-03",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/lm04/v.mp4",
+  "metin": "Kareköklü ifade üç adımda biter: tam kareyi ayıkla, kökü dışarı al, paydayı temizle.\nMatematik için kısa bir video.\nFaydalı bulursan kanalı bir arkadaşına ilet: {KANAL}"
+ },
+ {
+  "id": "kt15",
+  "tarih": "2026-11-04",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "6. sınıf matematik, 7. sınıf Türkçe, 9. sınıf matematik ve 10. sınıf Türk dili ve edebiyatı: MEB'in ülke geneli ortak yazılı sınavlarının 1. dönem birinci yazılısı 11-12 Kasım 2026'da yapılacak. (8. sınıf bu listede yok.)\nSorular açık uçlu: cevabı kendin yazıyorsun. Çalışırken çözüm adımlarını da yaz.\nMEB duyurusu: https://odsgm.meb.gov.tr/www/ulke-geneli-ortak-yazili-sinav-takvimi-belli-oldu/icerik/1732/tr"
+ },
+ {
+  "id": "kt16",
+  "tarih": "2026-11-04",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/kt16/v.mp4",
+  "metin": "Sınavda soru sıralaması bir tercih değil taktik.\nTek turda sıkışan öğrenci kalan soruların hepsini kaybedebilir.\nVideoda sıralamayı anlattık; bir sonraki denemede dene."
+ },
+ {
+  "id": "kt17",
+  "tarih": "2026-11-05",
+  "saat": "13:30",
+  "tur": "anket",
+  "anket": {
+   "soru": "Bu hafta en çok hangi alanda takıldın?",
+   "secenekler": [
+    "Matematik",
+    "Türkçe / Edebiyat",
+    "Fen bilimleri (Fizik, Kimya, Biyoloji)",
+    "Sosyal alan (Tarih, Coğrafya, Din)"
+   ]
+  },
+  "metin": "Bu hafta en çok hangi alanda takıldın?"
+ },
+ {
+  "id": "kt18",
+  "tarih": "2026-11-05",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r40/v.mp4",
+  "metin": "Sınav döneminde ailelerin tekrarladığı üç hata iyi niyetli ama etkisi geç fark ediliyor.\nVideoyu çocuğuyla doğru konuşmak isteyen bir veliye ilet."
+ },
+ {
+  "id": "kt19",
+  "tarih": "2026-11-06",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Geçmiş sınav soruları iyi bir deneme malzemesi.\nMEB, 26 Nisan 2026 Bursluluk Sınavı'nın soru kitapçıklarını ve cevap anahtarlarını yayımladı (5-11. sınıf düzeyleri).\nKendi sınıfının kitapçığını süre tutarak çöz, yanlışlarını not et.\nMEB duyurusu: https://www.meb.gov.tr/2026-ilkogretim-ve-ortaogretim-kurumlari-bursluluk-sinavi-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi/haber/40557/tr"
+ },
+ {
+  "id": "kt20",
+  "tarih": "2026-11-06",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/ym08/v.mp4",
+  "metin": "Din, tarih ve coğrafyada soru çoğu zaman kavramların ayrımından geliyor.\nKavramları iki sütunda karşılaştırmayı videoda gösterdik.\nYKS sözel çalışanlar için kısa bir video."
+ },
+ {
+  "id": "kt21",
+  "tarih": "2026-11-07",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Denemeni bitirdin mi? İlk iş netini doğru yazmak.\nLGS ve TYT/AYT için net hesaplayıcı: {LINK}\nNetin yanına bir şey daha yaz: hangi dersten kaç yanlışın var?",
+  "link_yol": "/net-hesapla.html"
+ },
+ {
+  "id": "kt22",
+  "tarih": "2026-11-07",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/ar09/v.mp4",
+  "metin": "Günün tamamını yeni konuya ayırmak en sık yapılan hata.\nTekrar ve deneme zamanı plana yazılmazsa hiç yapılmıyor.\nYarınki planına bu gözle bir bak."
+ },
+ {
+  "id": "kt23",
+  "tarih": "2026-11-08",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Pazar akşamı için veli notu:\nNotları sormak yerine \"bu hafta en çok neyi öğrendin?\" diye sorun.\nCevap kısa olabilir. Amaç konuşmanın açılması."
+ },
+ {
+  "id": "kt24",
+  "tarih": "2026-11-08",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r38/v.mp4",
+  "metin": "Sınav sonucu açıklandıktan sonraki ilk iki gün, ailelerin en sık yanlış yaptığı dönem.\nİlk saatlerde konuşulan şey neredeyse hep net oluyor.\nVideoyu sınava girecek çocuğu olan bir veliye ilet: {KANAL}"
+ },
+ {
+  "id": "kt25",
+  "tarih": "2026-11-09",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "YKS ile ilgili tarih ve kuralları yalnızca ÖSYM'nin sayfasından takip et: sınav takvimi, aday işlemleri ve sonuç sayfası oradan açılıyor.\nKulaktan dolma tarihe güvenme.\nÖSYM YKS sayfası: https://www.osym.gov.tr/SinavGrubu/Index/2"
+ },
+ {
+  "id": "kt26",
+  "tarih": "2026-11-09",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/ym06/v.mp4",
+  "metin": "Vektörde yön, analitik geometride denklem var. İkisinde de soruyu doğru çevirmek hesaplamadan önce geliyor.\nYKS Matematik için kısa bir video.\nDeneme takibi, hedef analizi ve veli raporunu görmek istersen: {LINK}",
+  "link_yol": "/"
+ },
+ {
+  "id": "kt27",
+  "tarih": "2026-11-10",
+  "saat": "13:30",
+  "tur": "metin",
+  "metin": "Ulu Önder Mustafa Kemal Atatürk'ü saygı, sevgi ve özlemle anıyoruz.\n\"Hayatta en hakiki mürşit ilimdir.\""
+ },
+ {
+  "id": "kt28",
+  "tarih": "2026-11-10",
+  "saat": "20:30",
+  "tur": "video",
+  "video": "r/r67/v.mp4",
+  "metin": "Açılmayan bir konu çocuğu çok yorar: çalıştığını sanır ama ilerlemediğini görür.\nZor bir konuya ilk adımın ne olması gerektiğini videoda anlattık.\nBu akşam tek bir konu seç, yalnızca ilk adımı at.",
+  "ertelendi": true
  }
 ]
