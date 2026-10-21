@@ -1,0 +1,30 @@
+name: Telegram yayını
+on:
+  schedule:
+    - cron: '30 17 * * *'   # 20:30 TR
+  workflow_dispatch:
+    inputs:
+      kuru: { description: 'sadece göster, gönderme', type: boolean, default: true }
+concurrency: { group: telegram, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  yayinla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      MEDYA_URL: https://onlinekocun-medya.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Gönder
+        env: { TG_BOT_TOKEN: '${{ secrets.TG_BOT_TOKEN }}' }
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.kuru }}" = "true" ]; then node telegram/yayinla.mjs --dry-run; else node telegram/yayinla.mjs; fi
+      - name: Gönderim kaydını repoya yaz
+        if: always()
+        run: |
+          git diff --quiet telegram/gonderilen.json && exit 0
+          git config user.name "story-bot"; git config user.email "story-bot@users.noreply.github.com"
+          git add telegram/gonderilen.json && git commit -m "telegram gönderim kaydı $(date +%F)"
+          for n in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 3; done; exit 1
