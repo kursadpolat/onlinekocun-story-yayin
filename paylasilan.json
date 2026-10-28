@@ -400,5 +400,11 @@
    "slot": 0
   }
  ],
- "kismi": {}
+ "kismi": {
+  "ai17": [
+   "s/ai17/1.jpg",
+   "s/ai17/2.jpg",
+   "s/ai17/3.jpg"
+  ]
+ }
 }
