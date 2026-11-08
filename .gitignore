@@ -6,3 +6,4 @@ token-kaydet.sh
 .vercel/
 .vercelignore
 vercel.json
+token.enc

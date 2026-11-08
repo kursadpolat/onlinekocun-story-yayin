@@ -108,7 +108,7 @@ if (arg.kuru) { console.log('  ' + JSON.stringify({ kare: x.kare?.length, video:
 if (!IG_USER_ID || !IG_TOKEN || !MEDYA_URL) { console.error('IG_USER_ID / IG_TOKEN / MEDYA_URL eksik'); process.exit(1); }
 
 // Uzun ömürlü token 60 gün yaşar. Bulutta: TOKEN_YENILE=1 ise yenile, yeni token'ı YENI_TOKEN_DOSYA'ya yaz
-// (workflow onu şifreleyip repoya geri koyar). Mac'te: env dosyası 7 günden eskiyse yenile.
+// (workflow onu IG_TOKEN GitHub Secret'ına yazar). Mac'te: env dosyası 7 günden eskiyse yenile.
 const yas = fs.existsSync(ENV_DOSYA) ? (Date.now() - fs.statSync(ENV_DOSYA).mtimeMs) / 864e5 : 0;
 if (process.env.TOKEN_YENILE === '1' || yas > 7) {
   try {
