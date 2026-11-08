@@ -196,11 +196,25 @@
   "kapak": "r/rk26/k.jpg"
  },
  {
+  "id": "vp01",
+  "baslik": "Çalıştım dedi",
+  "video": "r/vp01/v.mp4",
+  "altyazi": "Çocuğunuz çalıştığını söylüyor ama ne kadar çalıştığını göremiyorsunuz. Veli raporu, giriş yapmadan tek linkle açılıyor: haftalık soru, deneme net grafiği, çalışma sıklığı.\n\nÖrnek veli raporu: onlinekocun.com (link profilde)\n#veli #lgs #yks #veliraporu #onlinekoçun",
+  "kapak": "r/vp01/k.jpg"
+ },
+ {
   "id": "kt17",
   "baslik": "Doğru çözümü okumak yetmez",
   "video": "r/kt17/v.mp4",
   "altyazi": "Doğru cevabı gördüğünde 'çözdüm' dersin. Üç gün sonra aynı soruya döndüğünde aynı yerde kalırsın.\n\nSayfa numarası işe yaramaz, kural işe yarar.\n\nSoru atmak istersen mesaj bırak.\n\nSana uygun haftalık programı birlikte kurmak istersen DM'e PROGRAM yaz.\n\n#onlinekocun #lgs2027 #lgshazirlik #derscalisma #ogrencikocu",
   "kapak": "r/kt17/k.jpg"
+ },
+ {
+  "id": "vp02",
+  "baslik": "Deneme kâğıdı çantada",
+  "video": "r/vp02/v.mp4",
+  "altyazi": "Deneme kâğıdı çantada beklerken konuşmak zorlaşıyor. Sonuç sayfasının fotoğrafı yüklenince ders bazlı doğru, yanlış ve boş otomatik okunuyor, net grafiğine işleniyor.\n\nonlinekocun.com (link profilde)\n#deneme #lgs #yks #netgrafiği #onlinekoçun",
+  "kapak": "r/vp02/k.jpg"
  },
  {
   "id": "rk27",
@@ -210,6 +224,13 @@
   "kapak": "r/rk27/k.jpg"
  },
  {
+  "id": "vp03",
+  "baslik": "Ders nereye sığacak",
+  "video": "r/vp03/v.mp4",
+  "altyazi": "Okul, kurs, yemek, mola. Hepsinin arasına ders koymak her hafta yeniden iş çıkarıyor. Akıllı Plan Sihirbazı seviyeye, tempoya ve günlük hedef soru sayısına göre haftalık programı kuruyor.\n\nonlinekocun.com (link profilde)\n#çalışmaprogramı #lgs #yks #veli #onlinekoçun",
+  "kapak": "r/vp03/k.jpg"
+ },
+ {
   "id": "kt18",
   "baslik": "Tekrar üç günde biter",
   "video": "r/kt18/v.mp4",
@@ -217,11 +238,25 @@
   "kapak": "r/kt18/k.jpg"
  },
  {
+  "id": "vp04",
+  "baslik": "Baba, bu soruyu çözer misin",
+  "video": "r/vp04/v.mp4",
+  "altyazi": "Gece soruda takılınca evde cevap veremiyorsak çocuk ertesi güne yarım gidiyor. Soru fotoğrafı yüklenince adım adım çözüm geliyor, istenirse önce ipucu veriliyor, sonra aynı kazanımdan yeni soru üretiliyor.\n\nonlinekocun.com (link profilde)\n#soruçözümü #lgs #yks #veli #onlinekoçun",
+  "kapak": "r/vp04/k.jpg"
+ },
+ {
   "id": "rk29",
   "baslik": "Koc paneli 916",
   "video": "r/rk29/v.mp4",
   "altyazi": "Öğrenci takibini hâlâ Excel'de mi yapıyorsunuz? Koç paneli: kim düştü, kime bugün ulaşmalısınız, veliye rapor otomatik.\n\nOnlineKoçun: onlinekocun.com (link profilde)\n#eğitimkoçu #koçluk #onlinekoçun #yks",
   "kapak": "r/rk29/k.jpg"
+ },
+ {
+  "id": "vp05",
+  "baslik": "Hedef bölüm için kaç net",
+  "video": "r/vp05/v.mp4",
+  "altyazi": "Hedef bölüm belli ama hedefe kaç net kaldığı belli değilse plan da belli olmuyor. Hedef takibi güncel taban puanlarıyla çalışıyor, son denemelerle kıyaslayıp kalan neti gösteriyor. Kazanma yüzdesi vermiyor.\n\nNet hesaplayıcı: onlinekocun.com (link profilde)\n#yks #hedefnet #tercih #veli #onlinekoçun",
+  "kapak": "r/vp05/k.jpg"
  },
  {
   "id": "kt19",
