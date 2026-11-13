@@ -765,5 +765,11 @@
    "slot": 0
   }
  ],
- "kismi": {}
+ "kismi": {
+  "kz02": [
+   "s/kz02/1.jpg",
+   "s/kz02/2.jpg",
+   "s/kz02/3.jpg"
+  ]
+ }
 }
