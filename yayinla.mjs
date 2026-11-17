@@ -34,10 +34,47 @@ const { IG_USER_ID, IG_TOKEN, MEDYA_URL } = process.env;
 const GRAPH = 'https://graph.instagram.com/v23.0';
 
 function bugunTR() { return new Date(Date.now() + 3 * 3600e3).toISOString().slice(0, 10); }
+// Karusel yalnız Pzt/Çar/Cum (TR) paylaşılır. Kuyruk id bazlı (paylasilan.json) ilerler, tarih bazlı değil:
+// atlanan günde hiçbir kayıt yazılmaz, bu yüzden kuyruk sırası ve öğeler korunur.
+const KARUSEL_GUNLERI = [1, 3, 5]; // 0=Pazar
+const haftaGunu = t => new Date(t + 'T00:00:00Z').getUTCDay();
+
+// Her reel/karusel altyazısına hashtag'lerden önce tek bir veli sorusu eklenir (günlere göre döner).
+const SORULAR = [
+  'Sizde en çok hangi ders tartışma çıkarıyor? Yoruma yazın 👇',
+  'Çocuğunuz ders çalışırken telefonu en çok hangi bahaneyle yanına alıyor? Yoruma yazın 👇',
+  'Sınav haftasında evde en çok hangi konu gerginlik yaratıyor? Yoruma yazın 👇',
+  'Çocuğunuza "ders çalış" demeden önce ne yapıyorsunuz? Yoruma yazın 👇',
+  'Sizce çocuğunuz günde kaç saat verimli çalışıyor? Yoruma yazın 👇',
+  'Deneme sonucu kötü geldiğinde eve nasıl bir hava oluyor? Yoruma yazın 👇',
+  'Çalışma saatini çocuğunuzla birlikte mi belirliyorsunuz? Yoruma yazın 👇',
+  'Evde ders çalışmayı en çok ne zorlaştırıyor? Yoruma yazın 👇',
+  'Çocuğunuz en çok hangi dersten kaçıyor? Yoruma yazın 👇',
+  'Akşam ders kontrolünü siz mi yapıyorsunuz, o mu? Yoruma yazın 👇',
+  'Çocuğunuzu motive eden tek şey ne oldu? Yoruma yazın 👇',
+  'Hafta sonu çalışma planınız var mı, yoksa gün içinde mi karar veriyorsunuz? Yoruma yazın 👇',
+];
+function soruEkle(altyazi, tarih) {
+  const a = (altyazi || '').replace(/\s+$/, '');
+  const gunNo = Math.floor(Date.parse(tarih) / 864e5);
+  const soru = SORULAR[((gunNo % SORULAR.length) + SORULAR.length) % SORULAR.length];
+  const satirlar = a.split('\n');
+  let h = satirlar.findIndex(l => /^\s*#/.test(l)); // hashtag bloğunun ilk satırı
+  const metin = (h < 0 ? a : satirlar.slice(0, h).join('\n')).replace(/\s+$/, '');
+  if (/[?？]\s*(["'”’)\]]|\p{Extended_Pictographic}|\s)*$/u.test(metin)) return a; // zaten soruyla bitiyor
+  const etiket = h < 0 ? '' : satirlar.slice(h).join('\n');
+  let son = [metin, soru, etiket].filter(Boolean).join('\n\n');
+  if (son.length > 2200 || (son.match(/#\S+/g) || []).length > 30) return a; // IG sınırı: ekleme
+  return son;
+}
+
 function icerikSec() {
   if (arg.id) return kuyruk.find(s => s.id === arg.id) || (() => { throw new Error('içerik yok: ' + arg.id); })();
   const tarih = arg.tarih || bugunTR(), slot = Number(arg.slot || 0);
   if (Date.parse(tarih) < Date.parse(AYAR.baslangic)) return null;
+  if (TUR === 'karusel' && !KARUSEL_GUNLERI.includes(haftaGunu(tarih))) {
+    console.log(`${tarih} karusel atlandı (yalnız Pzt/Çar/Cum), kuyruk ilerlemedi.`); process.exit(0);
+  }
   const onceki = durum[TUR].find(k => k.tarih === tarih && k.slot === slot);
   if (onceki) { console.log(`${tarih} ${TUR} slot ${slot} zaten paylaşıldı (${onceki.id}), çıkılıyor.`); process.exit(0); }
   const bitti = new Set(durum[TUR].map(k => k.id));
@@ -82,7 +119,7 @@ const PAYLAS = {
     }
   },
   async reel(x) {
-    const p = { media_type: 'REELS', video_url: url(x.video), caption: x.altyazi, share_to_feed: 'true' };
+    const p = { media_type: 'REELS', video_url: url(x.video), caption: soruEkle(x.altyazi, arg.tarih || bugunTR()), share_to_feed: 'true' };
     if (x.kapak) p.cover_url = url(x.kapak);
     const { id } = await api(`${IG_USER_ID}/media`, p);
     await hazirBekle(id, 60);
@@ -95,7 +132,7 @@ const PAYLAS = {
       cocuk.push(id);
     }
     for (const c of cocuk) await hazirBekle(c, 20);
-    const { id } = await api(`${IG_USER_ID}/media`, { media_type: 'CAROUSEL', children: cocuk.join(','), caption: x.altyazi });
+    const { id } = await api(`${IG_USER_ID}/media`, { media_type: 'CAROUSEL', children: cocuk.join(','), caption: soruEkle(x.altyazi, arg.tarih || bugunTR()) });
     await hazirBekle(id, 20);
     console.log(`  ✓ karusel (${cocuk.length} kare) → ${await yayinla(id)}`);
   },
@@ -104,7 +141,8 @@ const PAYLAS = {
 const x = icerikSec();
 if (!x) { console.log('Başlangıç tarihi gelmedi, atlandı.'); process.exit(0); }
 console.log(`${arg.tarih || bugunTR()} ${TUR} slot ${arg.slot ?? '-'} → ${x.id} "${x.baslik}"`);
-if (arg.kuru) { console.log('  ' + JSON.stringify({ kare: x.kare?.length, video: x.video, altyazi: (x.altyazi || '').slice(0, 80) })); process.exit(0); }
+if (arg.kuru) { console.log('  ' + JSON.stringify({ kare: x.kare?.length, video: x.video, altyazi: (x.altyazi || '').slice(0, 80) }));
+  if (TUR !== 'story') console.log('  GİDECEK ALTYAZI:\n' + soruEkle(x.altyazi, arg.tarih || bugunTR())); process.exit(0); }
 if (!IG_USER_ID || !IG_TOKEN || !MEDYA_URL) { console.error('IG_USER_ID / IG_TOKEN / MEDYA_URL eksik'); process.exit(1); }
 
 // Uzun ömürlü token 60 gün yaşar. Bulutta: TOKEN_YENILE=1 ise yenile, yeni token'ı YENI_TOKEN_DOSYA'ya yaz

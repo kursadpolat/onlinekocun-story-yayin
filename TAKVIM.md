@@ -1,6 +1,9 @@
 # Instagram yayın takvimi
 
-Karusel her gün 13:00 · Reel her gün 20:00 · Hikâye her gün 09:30 / 16:30 / 21:30 (TR). GitHub zamanlayıcısı 5-30 dk gecikebilir.
+**Düzen notu (2026-11-17):** Karusel yalnız Pzt/Çar/Cum paylaşılır; diğer günlerde tetiklense bile paylaşım ve kuyruk ilerlemesi olmaz (kuyruk id bazlı, paylasilan.json). Aşağıdaki karusel tarihleri eski "her gün" düzenine göre, yalnız sıra gösterir. Reel ve karusel altyazısının sonuna, hashtag'lerden önce, yayın anında günlere göre dönen tek bir veli sorusu eklenir (yayinla.mjs `SORULAR`; altyazı zaten soruyla bitiyorsa eklenmez, 2200 karakter / 30 hashtag aşılırsa eklenmez).
+
+
+Karusel haftada 3 gün (Pazartesi, Çarşamba, Cuma) 13:00 · Reel her gün 20:00 · Hikâye her gün 09:30 / 16:30 / 21:30 (TR). GitHub zamanlayıcısı 5-30 dk gecikebilir.
 
 
 ## Hikâye (190 adet)
