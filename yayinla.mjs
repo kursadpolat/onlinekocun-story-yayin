@@ -104,7 +104,19 @@ async function hazirBekle(id, sure = 60) {
   }
   throw new Error('konteyner zaman aşımı: ' + id);
 }
-async function yayinla(id) { return (await api(`${IG_USER_ID}/media_publish`, { creation_id: id })).id; }
+// media_publish bazen FINISHED sonrası bile 2207006 (Media Not Found) / 2207027 / 9007 (hazır değil) döner: artan beklemeyle tekrar dene
+async function yayinla(id) {
+  const gecici = /2207006|2207027|"code":9007|Media Not Found|not ready/i;
+  for (let n = 1; ; n++) {
+    try { return (await api(`${IG_USER_ID}/media_publish`, { creation_id: id })).id; }
+    catch (e) {
+      if (n >= 4 || !gecici.test(e.message)) throw e;
+      console.log(`  media_publish tekrar (${n}/3): ${e.message.slice(0, 120)}`);
+      await bekle(n * 10000);
+      try { await hazirBekle(id, 12); } catch {}
+    }
+  }
+}
 
 const PAYLAS = {
   async story(x) {
