@@ -1,0 +1,30 @@
+name: Yorum bildirimi
+on:
+  schedule:
+    - cron: '0 6,12,18 * * *'   # 09:00, 15:00, 21:00 TR
+  workflow_dispatch:
+    inputs:
+      kuru: { description: 'sadece say, gönderme/kaydetme', type: boolean, default: false }
+concurrency: { group: yorum, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  yorum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      IG_USER_ID: '17841432363585455'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Yorumları oku ve bildir (salt okuma)
+        env: { IG_TOKEN: '${{ secrets.IG_TOKEN }}', TG_BOT_TOKEN: '${{ secrets.TG_BOT_TOKEN }}', TG_CHAT_ID: '${{ secrets.TG_CHAT_ID }}' }
+        run: |
+          if [ "${{ inputs.kuru }}" = "true" ]; then node yorum-bildir.mjs --kuru; else node yorum-bildir.mjs; fi
+      - name: Bildirim kaydını repoya yaz
+        if: always()
+        run: |
+          git diff --quiet yorum-bildirilen.json 2>/dev/null && [ -z "$(git ls-files -o --exclude-standard yorum-bildirilen.json)" ] && exit 0
+          git config user.name "story-bot"; git config user.email "story-bot@users.noreply.github.com"
+          git add yorum-bildirilen.json && git commit -m "yorum bildirim kaydı $(date +%F)"
+          for n in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 3; done; exit 1
