@@ -54,7 +54,18 @@ const SORULAR = [
   'Çocuğunuzu motive eden tek şey ne oldu? Yoruma yazın 👇',
   'Hafta sonu çalışma planınız var mı, yoksa gün içinde mi karar veriyorsunuz? Yoruma yazın 👇',
 ];
+const TG_SATIR = '📲 Veliye her akşam 20:30\'da kısa bir koçluk videosu: Telegram\'da t.me/onlinekocun';
 function soruEkle(altyazi, tarih) {
+  const s = soruEkle0(altyazi, tarih);
+  if (/t\.me\/onlinekocun/i.test(s)) return s;
+  const l = s.split('\n');
+  const h = l.findIndex(x => /^\s*#/.test(x));
+  const govde = (h < 0 ? s : l.slice(0, h).join('\n')).replace(/\s+$/, '');
+  const etiket = h < 0 ? '' : l.slice(h).join('\n');
+  const son = [govde, TG_SATIR, etiket].filter(Boolean).join('\n\n');
+  return son.length > 2200 ? s : son; // soru öncelikli: sınır aşılırsa Telegram satırı eklenmez
+}
+function soruEkle0(altyazi, tarih) {
   const a = (altyazi || '').replace(/\s+$/, '');
   const gunNo = Math.floor(Date.parse(tarih) / 864e5);
   const soru = SORULAR[((gunNo % SORULAR.length) + SORULAR.length) % SORULAR.length];

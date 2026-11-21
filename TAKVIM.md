@@ -1044,3 +1044,5 @@ Gün aşırı: 20.10'dan itibaren bir yeni (rk*) bir mevcut reel; rk bitince bir
 | 567 | 2028-05-07 | 13:00 | ym03 | YKS: trigonometri ve diziler |
 | 568 | 2028-05-08 | 13:00 | ym05 | YKS: integral ve olasılık |
 | 569 | 2028-05-09 | 13:00 | ym07 | YKS sözel: dönemler ve felsefe |
+
+Not (2026-11-21): reel ve karusel altyazılarına soru sonrası, hashtag öncesi Telegram daveti satırı eklenir (story'ye değil; t.me/onlinekocun zaten varsa veya 2200 aşılırsa eklenmez).
