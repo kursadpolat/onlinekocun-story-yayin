@@ -1046,3 +1046,5 @@ Gün aşırı: 20.10'dan itibaren bir yeni (rk*) bir mevcut reel; rk bitince bir
 | 569 | 2028-05-09 | 13:00 | ym07 | YKS sözel: dönemler ve felsefe |
 
 Not (2026-11-21): reel ve karusel altyazılarına soru sonrası, hashtag öncesi Telegram daveti satırı eklenir (story'ye değil; t.me/onlinekocun zaten varsa veya 2200 aşılırsa eklenmez).
+
+Not (2026-11-27): reel kuyruğu "gerçek an" öne gelecek şekilde yeniden sıralandı (paylaşılan 46 yerinde, sonra A,A,B,A,C deseni; silme yok). Rapor: siralama-2026-11-27.md, yedek: kuyruk-reel.yedek-2026-11-27.json.
