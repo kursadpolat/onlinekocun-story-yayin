@@ -329,6 +329,41 @@
   "kapak": "r/ar04/k.jpg"
  },
  {
+  "id": "ga04",
+  "baslik": "Buzdolabındaki plan",
+  "video": "r/ga04/v.mp4",
+  "altyazi": "Pazar yazılan plan çarşambaya kadar buzdolabında unutuluyor.\nAkıllı Plan Sihirbazı haftayı okul, kurs ve mola saatlerine göre kuruyor.\nSaati gelince hatırlatıyor, kaçan görev yarına taşınabiliyor.\nonlinekocun.com (link profilde)\n\nSizin evdeki haftalık plan kaçıncı güne kadar dayanıyor?\n\n#onlinekocun #lgs #çalışmaprogramı #veli",
+  "kapak": "r/ga04/k.jpg"
+ },
+ {
+  "id": "ga01",
+  "baslik": "Saat on bir",
+  "video": "r/ga01/v.mp4",
+  "altyazi": "Gece 23:00, LGS'nin yeni nesil matematik sorusu ve cevabı bilmeyen bir veli.\nSorunun fotoğrafı yükleniyor, önce temel kural, sonra adım adım çözüm geliyor.\nÇocuk hangi adımda koptuğunu kendisi görüyor; cevabı ezberlemiyor, yolu anlıyor.\nonlinekocun.com (link profilde)\n\nSiz gece takılan bir soruda en son ne yaptınız?\n\n#onlinekocun #lgs #lgs2027 #yeninesilsorular #veli",
+  "kapak": "r/ga01/k.jpg"
+ },
+ {
+  "id": "ga02",
+  "baslik": "Net düşmüş",
+  "video": "r/ga02/v.mp4",
+  "altyazi": "Deneme sonucu geldi, net düşmüş.\nKavga etmeden önce nereden kaybettiğine birlikte bakmak her şeyi değiştiriyor.\nKazanım kazanım ayrılan sonuçta sorun bütün ders değil, çoğu zaman iki konu çıkıyor.\nonlinekocun.com (link profilde)\n\nDeneme sonucu kötü geldiği akşam evinizde ilk ne konuşuluyor?\n\n#onlinekocun #lgs #deneme #netartırma #veli",
+  "kapak": "r/ga02/k.jpg"
+ },
+ {
+  "id": "ga05",
+  "baslik": "İki saat",
+  "video": "r/ga05/v.mp4",
+  "altyazi": "İki saat odadaydı, telefon da yanındaydı.\nSüreye bakınca kavga çıkıyor; asıl soru o saatin içinde ne yapıldığı.\nHer çalışma günü süresiyle birlikte çözülen soru sayısıyla ve doğru oranıyla görünüyor.\nonlinekocun.com (link profilde)\n\nSiz çocuğunuzun çalışmasını neyle ölçüyorsunuz: süreyle mi, içerikle mi?\n\n#onlinekocun #lgs #verimliçalışma #veli",
+  "kapak": "r/ga05/k.jpg"
+ },
+ {
+  "id": "ga03",
+  "baslik": "Bugün ne çalıştın",
+  "video": "r/ga03/v.mp4",
+  "altyazi": "\"Bugün ne çalıştın?\" sorusunun cevabı hep \"çalıştım işte\".\nVeli raporu giriş yapmadan tek linkle açılıyor: kaç gün çalışılmış, kaç soru çözülmüş, doğru oranı ne.\nSorgu yerine sohbet etmek için önce görmek gerekiyor.\nÖrnek veli raporu: onlinekocun.com (link profilde)\n\nSiz bu soruyu her akşam soruyor musunuz?\n\n#onlinekocun #lgs #veliraporu #veli",
+  "kapak": "r/ga03/k.jpg"
+ },
+ {
   "id": "ar05",
   "baslik": "Sen çalışmıyorsun",
   "video": "r/ar05/v.mp4",
